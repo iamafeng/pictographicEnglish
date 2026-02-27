@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="象形英语单词学习应用 - 通过视觉记忆法高效学习英语单词">
+    <meta name="theme-color" content="#6366f1">
+    <title>Pictographic Learn - 象形英语学习</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/enhancements.css">
+    <link rel="stylesheet" href="src/styles/ui-polish.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+
+<body>
+    <!-- Screen Reader Announcements -->
+    <div class="sr-only" role="status" aria-live="polite" aria-atomic="true" id="sr-announcements"></div>
+
+    <div class="container">
+        <header class="app-header">
+            <div class="header-main">
+                <div class="logo-area">
+                    <h1>Pictographic Learn</h1>
+                    <p class="subtitle">Visualizing vocabulary for long-term memory</p>
+                </div>
+                <div class="header-actions">
+                    <!-- 按钮将通过 JS 动态添加 -->
+                    <button id="cinema-btn" class="icon-btn" title="影院模式 (沉浸学习)" aria-label="打开影院模式">🎬</button>
+                    <button id="challenge-btn" class="glass-btn primary" aria-label="开始学习挑战">✨ 开始挑战</button>
+                    <button id="settings-btn" class="icon-btn" title="API 设置" aria-label="打开设置">⚙️</button>
+                </div>
+            </div>
+
+            <div class="nav-wrapper">
+                <nav class="tabs-container" role="tablist">
+                    <button class="tab-btn active" data-tab="plaza" role="tab" aria-selected="true"
+                        aria-controls="word-grid">
+                        单词广场
+                    </button>
+                    <button class="tab-btn" data-tab="library" role="tab" aria-selected="false"
+                        aria-controls="word-grid">
+                        我的词库 <span id="learned-count" class="badge" aria-label="已学单词数量">0</span>
+                    </button>
+                </nav>
+                <div class="search-wrapper">
+                    <input type="text" id="search-input" placeholder="搜索单词或含义..." aria-label="搜索单词" autocomplete="nope"
+                        readonly onfocus="this.removeAttribute('readonly')">
+                    <span class="search-icon" aria-hidden="true">🔍</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="grid" id="word-grid" role="region" aria-label="单词卡片列表">
+                <!-- Cards will be injected here -->
+            </div>
+
+            <nav class="pagination-container" role="navigation" aria-label="分页导航">
+                <button id="prev-page" class="glass-btn small" title="上一页" aria-label="上一页">←</button>
+                <div id="pagination-numbers" role="list"></div>
+                <button id="next-page" class="glass-btn small" title="下一页" aria-label="下一页">→</button>
+            </nav>
+        </main>
+    </div>
+
+    <!-- Toast Container -->
+    <div id="toast-container" role="region" aria-live="polite" aria-atomic="true"></div>
+    <div id="help-popup" class="help-menu-popup"></div>
+
+    <!-- Challenge Selection Overlay -->
+    <div id="challenge-overlay" class="modal" role="dialog" aria-labelledby="challenge-title" aria-modal="true">
+        <div class="modal-content panel challenge-panel">
+            <h3 id="challenge-title">🎯 学习挑战</h3>
+            <p>选择一种模式开始随机挑战</p>
+            <div class="challenge-options">
+                <button class="challenge-mode-btn" data-mode="random_plaza">
+                    <strong>广场随机探索</strong>
+                    <span>从全量词库中抽取</span>
+                </button>
+                <button class="challenge-mode-btn" data-mode="random_library">
+                    <strong>回顾记忆库</strong>
+                    <span>从"我的词库"中抽取</span>
+                </button>
+                <button class="challenge-mode-btn" data-mode="connect_game">
+                    <strong>🧩 象形连连看</strong>
+                    <span>将单词与正确的象形图连线 (互动游戏)</span>
+                </button>
+            </div>
+            <button id="close-challenge" class="secondary-btn w-full mt-4">取消</button>
+        </div>
+    </div>
+
+    <!-- Game View Modal (Gacha Challenge) -->
+    <div id="game-modal" class="modal game-view" role="dialog" aria-labelledby="game-title" aria-modal="true">
+        <div class="game-container">
+            <header class="game-header">
+                <div class="game-title-area">
+                    <h2 id="game-mode-title">✨ 抽取挑战</h2>
+                    <p>已选取 5 张神秘卡片，点击揭晓并判定</p>
+                </div>
+                <div class="game-stats" aria-live="polite">
+                    进度: <span id="game-progress">0/5</span>
+                </div>
+                <button id="exit-game" class="glass-btn" aria-label="退出游戏">退出</button>
+            </header>
+
+            <div id="game-grid" class="grid gacha-grid" role="region" aria-label="游戏卡片">
+                <!-- 5 Gacha Cards -->
+            </div>
+
+            <!-- Result Overlay -->
+            <div id="score-overlay" class="result-overlay" role="dialog" aria-labelledby="result-text">
+                <div class="result-box">
+                    <div id="result-icon" aria-hidden="true">🎉</div>
+                    <h3 id="result-text">挑战完成!</h3>
+                    <div class="final-score" aria-label="最终得分"><span id="score-val">0</span>分</div>
+                    <p id="result-message">太棒了，继续保持！</p>
+                    <div class="result-actions">
+                        <button id="next-round" class="primary-btn">下一组</button>
+                        <button id="back-to-plaza" class="secondary-btn">回到主页</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal" role="dialog" aria-labelledby="settings-title" aria-modal="true">
+        <div class="modal-content panel settings-panel">
+            <h3 id="settings-title">神识接入中心</h3>
+
+            <div class="settings-section">
+                <h4>🎙️ 语音合成 (TTS)</h4>
+                <div class="form-group">
+                    <label for="api-provider">API 提供商</label>
+                    <select id="api-provider" title="选择 TTS API 提供商" aria-label="选择语音合成提供商">
+                        <option value="browser">浏览器原生 (系统内置 - 永久免费)</option>
+                        <option value="siliconflow">SiliconFlow (硅基流动)</option>
+                        <option value="edgetts">Microsoft Edge (免费代理)</option>
+                        <option value="googletts">Google 翻译 (免费代理)</option>
+                        <optgroup label="付费 / 专用接口">
+                            <option value="deepseek">DeepSeek 官方</option>
+                            <option value="openai">OpenAI 官方</option>
+                        </optgroup>
+                        <option value="custom">自定义 (OpenAI 兼容)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="api-url">API 地址 (Base URL)</label>
+                    <input type="text" id="api-url" placeholder="https://api.openai.com/v1" aria-label="API 地址">
+                </div>
+                <div class="form-group">
+                    <label for="api-key">
+                        API Key
+                        <span class="help-hint" data-help="tts" role="button" tabindex="0" aria-label="查看帮助">?</span>
+                    </label>
+                    <input type="password" id="api-key" placeholder="sk-..." aria-label="API 密钥">
+                </div>
+                <div class="form-group">
+                    <label for="tts-model">
+                        语音模型 (Model)
+                        <span class="help-hint" data-help="tts_models" role="button" tabindex="0"
+                            aria-label="查看模型列表">?</span>
+                    </label>
+                    <input type="text" id="tts-model" placeholder="tts-1 / fish-speech-1.4" aria-label="语音模型">
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h4>🎨 AI 生图 (T2I)</h4>
+                <div class="form-group">
+                    <label for="t2i-provider">生图提供商</label>
+                    <select id="t2i-provider" title="选择生图 API 提供商" aria-label="选择图像生成提供商">
+                        <option value="pollinations">Pollinations (免费 - 默认)</option>
+                        <option value="siliconflow">SiliconFlow (推荐 Pro)</option>
+                        <option value="openai">OpenAI (DALL-E 3)</option>
+                        <option value="custom">自定义 (OpenAI 兼容)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="t2i-url">API 地址 (Base URL)</label>
+                    <input type="text" id="t2i-url" placeholder="https://api.siliconflow.cn/v1" aria-label="生图 API 地址">
+                </div>
+                <div class="form-group">
+                    <label for="t2i-key">
+                        API Key
+                        <span class="help-hint" data-help="t2i" role="button" tabindex="0" aria-label="查看帮助">?</span>
+                    </label>
+                    <input type="password" id="t2i-key" placeholder="sk-..." aria-label="生图 API 密钥">
+                </div>
+                <div class="form-group">
+                    <label for="t2i-model">
+                        生图模型 (Model)
+                        <span class="help-hint" data-help="t2i_models" role="button" tabindex="0"
+                            aria-label="查看模型列表">?</span>
+                    </label>
+                    <input type="text" id="t2i-model" placeholder="dall-e-3 / flux-1-schnell" aria-label="生图模型">
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button id="save-settings" class="primary-btn">保存全部</button>
+                <button id="close-settings" class="secondary-btn">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Connect Game Modal -->
+    <div id="connect-game-modal" class="modal game-view" role="dialog" aria-labelledby="connect-title"
+        aria-modal="true">
+        <div class="game-container connect-game-container">
+            <header class="game-header">
+                <div class="game-title-area">
+                    <h2 id="connect-title">🧩 象形连连看</h2>
+                    <p>拖动线条或依次点击：由【左侧单词】连向【右侧图片】</p>
+                </div>
+                <div class="game-stats" id="connect-progress" aria-live="polite">已连对: 0/5</div>
+                <button id="exit-connect" class="glass-btn" aria-label="退出游戏">放弃</button>
+            </header>
+            <div class="connect-stage">
+                <div id="connect-words" class="connect-column words" role="list" aria-label="单词列表"></div>
+                <canvas id="connect-canvas" aria-hidden="true"></canvas>
+                <div id="connect-pics" class="connect-column pics" role="list" aria-label="图片列表"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cinema Overlay -->
+    <div id="cinema-overlay" class="modal cinema-mode" role="dialog" aria-labelledby="cinema-title" aria-modal="true">
+        <div class="cinema-container">
+            <h2 id="cinema-title" class="sr-only">影院模式</h2>
+            <div id="cinema-card-target" class="cinema-card-stage" role="region" aria-label="当前单词卡片"></div>
+            <div class="cinema-controls" role="toolbar" aria-label="播放控制">
+                <button id="prev-cinema" class="glass-btn circle" aria-label="上一个">←</button>
+                <button id="play-pause-cinema" class="glass-btn circle" aria-label="播放/暂停">⏸</button>
+                <button id="next-cinema" class="glass-btn circle" aria-label="下一个">→</button>
+                <button id="exit-cinema" class="glass-btn" aria-label="退出影院模式">退出影院</button>
+            </div>
+            <div class="cinema-progress" role="progressbar" aria-label="播放进度">
+                <div id="cinema-progress-bar" class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts - Load in Order -->
+    <!-- 新架构：使用完整的单词数据库 -->
+    <script src="words.js"></script>
+    <script>
+        console.log(`✅ 已加载 ${words.length} 个系统单词`);
+    </script>
+
+    <!-- Services -->
+    <script src="src/services/TTSService.js"></script>
+    <script src="src/services/AIService.js"></script>
+    <script src="src/services/StorageService.js"></script>
+    <script src="src/services/SRSService.js"></script>
+    <script src="src/services/SVGGeneratorService.js"></script>
+    <script src="src/services/CategoryDetector.js"></script>
+
+    <!-- Utils -->
+    <script src="src/utils/toast.js"></script>
+    <script src="src/utils/keyboard.js"></script>
+    <script src="src/utils/performance.js"></script>
+
+    <!-- Components -->
+    <script src="src/components/StatsPanel.js"></script>
+    <script src="src/components/CustomWordManager.js"></script>
+    <script src="src/components/CinemaController.js"></script>
+    <script src="src/components/ConnectGame.js"></script>
+
+    <!-- Main App (Enhanced) -->
+    <script src="app.js"></script>
+
+    <!-- App Enhancements -->
+    <script src="src/app-enhancements.js"></script>
+
+    <!-- Initialization handled by app.js -->
+</body>
+
+</html>

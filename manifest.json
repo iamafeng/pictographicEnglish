@@ -1,0 +1,14 @@
+{
+  "name": "Pictographic Learn - 象形英语学习",
+  "short_name": "象形英语",
+  "description": "通过视觉记忆法高效学习英语单词",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["education", "productivity"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}

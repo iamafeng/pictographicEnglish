@@ -1,0 +1,604 @@
+/* ========================================
+   UI Polish - 全局 UI 优化样式
+   按照 UI 设计师标准完善
+   ======================================== */
+
+/* ========== 1. 全局优化 ========== */
+
+/* 更平滑的滚动 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 优化字体渲染 */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* 选中文本样式 */
+::selection {
+    background: rgba(99, 102, 241, 0.3);
+    color: #fff;
+}
+
+::-moz-selection {
+    background: rgba(99, 102, 241, 0.3);
+    color: #fff;
+}
+
+/* ========== 2. 按钮优化 ========== */
+
+/* 统一按钮基础样式 */
+button {
+    font-family: inherit;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* 主按钮增强 */
+.glass-btn.primary {
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-btn.primary::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.glass-btn.primary:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* 图标按钮优化 */
+.icon-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.icon-btn:hover::after {
+    opacity: 1;
+}
+
+/* ========== 3. 卡片优化 ========== */
+
+/* 卡片阴影层次 */
+.card-face {
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24),
+        0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-face:hover {
+    box-shadow:
+        0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22),
+        0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+/* 卡片内容对齐优化 */
+.card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.word-title {
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.meaning {
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+.example {
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+}
+
+/* ========== 4. 输入框优化 ========== */
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    font-family: inherit;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+/* 搜索框增强 */
+#search-input {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#search-input:focus {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+/* ========== 5. 模态框优化 ========== */
+
+.modal {
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    backdrop-filter: blur(12px) saturate(180%);
+}
+
+.modal.active {
+    animation: modalFadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    animation: modalSlideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes modalSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ========== 6. 导航优化 ========== */
+
+.tabs-container {
+    position: relative;
+}
+
+/* Tab 指示器 */
+.tabs-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px 3px 0 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tab-btn {
+    position: relative;
+    z-index: 1;
+}
+
+/* ========== 7. 加载状态 ========== */
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.loading-skeleton {
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.05) 0%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0.05) 100%);
+    background-size: 1000px 100%;
+    animation: shimmer 2s infinite;
+}
+
+/* ========== 8. 滚动条优化 ========== */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--primary), var(--accent));
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, var(--primary-light), var(--accent));
+}
+
+/* Firefox 滚动条 */
+@supports (scrollbar-width: thin) {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary) rgba(255, 255, 255, 0.05);
+    }
+}
+
+/* ========== 9. 动画优化 ========== */
+
+/* 淡入动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* 滑入动画 */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 缩放动画 */
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 应用动画到元素 */
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.slide-in-up {
+    animation: slideInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scale-in {
+    animation: scaleIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ========== 10. 响应式优化 ========== */
+
+/* 移动端触摸优化 */
+@media (hover: none) and (pointer: coarse) {
+    button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .card-container {
+        cursor: default;
+    }
+
+    /* 移除 hover 效果 */
+    .card:hover {
+        transform: none;
+    }
+}
+
+/* 平板优化 */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+}
+
+/* 大屏优化 */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1600px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 3.5rem;
+    }
+}
+
+/* ========== 11. 微交互优化 ========== */
+
+/* 按钮点击反馈 */
+@keyframes buttonPress {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:active:not(:disabled) {
+    animation: buttonPress 0.2s ease-out;
+}
+
+/* 卡片翻转优化 */
+.card.is-flipped {
+    animation: cardFlip 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes cardFlip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+/* ========== 12. 焦点优化 ========== */
+
+/* 自定义焦点样式 */
+*:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+/* 移除默认焦点 */
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* ========== 13. 加载指示器 ========== */
+
+.loading-dots {
+    display: inline-flex;
+    gap: 4px;
+}
+
+.loading-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: loadingDot 1.4s infinite ease-in-out both;
+}
+
+.loading-dots span:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+@keyframes loadingDot {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+        opacity: 0.5;
+    }
+
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* ========== 14. 徽章优化 ========== */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 10px;
+    animation: badgePop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes badgePop {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ========== 15. 工具提示优化 ========== */
+
+[title] {
+    position: relative;
+}
+
+/* 自定义 tooltip */
+.tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px);
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 0.75rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+    z-index: 1000;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.9);
+}
+
+*:hover>.tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-4px);
+}
+
+/* ========== 16. 打印样式优化 ========== */
+
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+
+    .card-face {
+        border: 1px solid #ccc;
+        box-shadow: none;
+        page-break-inside: avoid;
+    }
+
+    button,
+    .header-actions,
+    .pagination-container {
+        display: none !important;
+    }
+}
+
+/* ========== 17. 性能优化 ========== */
+
+/* GPU 加速 - 已裁剪 translateZ(0) 以防破坏 3D 嵌套 */
+.card,
+.modal-content,
+.glass-btn {
+    will-change: transform;
+}
+
+/* 减少重绘 */
+.card-container {
+    contain: layout style paint;
+}
+
+/* ========== 18. 暗色模式增强 ========== */
+
+@media (prefers-color-scheme: dark) {
+
+    /* 已经是暗色，增强对比度 */
+    :root {
+        --text-main: #ffffff;
+        --text-muted: #a0aec0;
+    }
+}
+
+/* ========== 19. 辅助类 ========== */
+
+.text-gradient {
+    background: linear-gradient(135deg, var(--primary-light), var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-glow {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* ========== 20. 最终优化 ========== */
+
+/* 优化渲染性能 */
+* {
+    box-sizing: border-box;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 防止布局偏移 */
+.card-container,
+.modal-content {
+    content-visibility: auto;
+}
