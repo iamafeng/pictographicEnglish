@@ -1,8 +1,41 @@
+# Documentation files
 /ARCHITECTURE.md
 /HOW_TO_RUN.md
 /QUICK_START.md
 /README.md
+/如何运行.md
+
+# Test files
 /test-architecture.html
 /test-simple.html
+/test-cards.html
+/debug-cards.html
+/clear-cache.html
 /test_pollinations.js
-/如何运行.md
+
+# Kiro configuration (AI assistant)
+.kiro/
+
+# Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (if added in future)
+node_modules/
+
+# Environment files
+.env
+.env.local
