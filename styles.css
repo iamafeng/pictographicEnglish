@@ -221,19 +221,18 @@ body {
 @keyframes cardReveal {
     from {
         opacity: 0;
-        transform: translateY(30px) scale(0.95);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0) scale(1);
     }
 }
 
 .card-container {
     perspective: 2000px;
     height: 420px;
-    animation: cardReveal 0.6s cubic-bezier(0.3, 1, 0.5, 1) backwards;
+    animation: cardReveal 0.6s cubic-bezier(0.3, 1, 0.5, 1);
+    position: relative;
 }
 
 .card {
@@ -277,11 +276,17 @@ body {
 }
 
 .card-front {
+    position: absolute;
+    top: 0;
+    left: 0;
     transform: rotateY(0deg) translateZ(2px);
     z-index: 2;
 }
 
 .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
     transform: rotateY(180deg) translateZ(2px);
     display: flex;
     flex-direction: column;
@@ -371,27 +376,6 @@ body {
     background: rgba(113, 63, 18, 0.3);
     border-color: rgba(234, 179, 8, 0.6);
     box-shadow: 0 0 10px rgba(234, 179, 8, 0.3);
-}
-
-.card-front {
-    z-index: 2;
-}
-
-.card-back {
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-}
-
-.card.is-flipped .card-front {
-    z-index: 1;
-}
-
-.card.is-flipped .card-back {
-    z-index: 2;
 }
 
 .learned-toggle {
@@ -1232,44 +1216,99 @@ body {
 
 .cinema-card-stage {
     width: 90%;
-    max-width: 600px;
+    max-width: 900px;
     height: 70vh;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     perspective: 2000px;
+    position: relative;
 }
 
 .cinema-card-stage .card-container {
-    width: 100%;
+    width: 400px;
     height: 100%;
     animation: none;
+    flex-shrink: 0;
+}
+
+.cinema-card-stage .card {
+    width: 100%;
+    height: 100%;
 }
 
 .cinema-card-stage .card-face {
-    padding: 3rem;
+    padding: 2rem;
     background: rgba(15, 23, 42, 0.4);
     border: 2px solid var(--glass-border-bright);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.cinema-card-stage .word-title {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-}
-
-.cinema-card-stage .meaning {
-    font-size: 1.6rem;
-    margin-bottom: 1.5rem;
-}
-
-.cinema-card-stage .example {
-    font-size: 1.1rem;
-    line-height: 1.6;
+.cinema-card-stage .pictogram-container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cinema-card-stage .pictogram-container svg {
+    max-width: 100%;
+    max-height: 100%;
     filter: drop-shadow(0 0 30px rgba(99, 102, 241, 0.5));
+}
+
+.cinema-card-stage .visual-label {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.cinema-info-overlay {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: rgba(15, 23, 42, 0.3);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 450px;
+}
+
+.cinema-info-overlay .word-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.cinema-info-overlay .meaning {
+    font-size: 1.4rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.cinema-info-overlay .example {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-primary);
+    font-style: italic;
+}
+
+.cinema-info-overlay .example-cn {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-muted);
 }
 
 .cinema-controls {
@@ -1473,4 +1512,69 @@ body {
         font-size: 0.9rem;
         padding: 0.8rem;
     }
+
+    /* Cinema mode responsive */
+    .cinema-card-stage {
+        flex-direction: column;
+        max-width: 95%;
+        height: auto;
+        gap: 1rem;
+    }
+
+    .cinema-card-stage .card-container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cinema-info-overlay {
+        width: 100%;
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    .cinema-info-overlay .word-title {
+        font-size: 2rem;
+    }
+
+    .cinema-info-overlay .meaning {
+        font-size: 1.2rem;
+    }
+
+    .cinema-info-overlay .example {
+        font-size: 1rem;
+    }
+
+    .cinema-controls {
+        bottom: 2rem;
+        padding: 0.6rem 1.5rem;
+        gap: 1rem;
+    }
+
+    .glass-btn.circle {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
 }
+
+
+/* Gacha Grid Responsive */
+@media (max-width: 900px) {
+    .gacha-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .gacha-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .gacha-grid .card-container {
+        max-width: 100%;
+    }
+}
+
+/* CSS Version: 2024-01-fix-game-cards */

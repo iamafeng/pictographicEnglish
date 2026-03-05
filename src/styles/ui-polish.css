@@ -545,7 +545,7 @@ button:active:not(:disabled) {
 
 /* 减少重绘 */
 .card-container {
-    contain: layout style paint;
+    /* contain: layout style paint; - 移除,可能导致布局问题 */
 }
 
 /* ========== 18. 暗色模式增强 ========== */
@@ -598,7 +598,52 @@ svg {
 }
 
 /* 防止布局偏移 */
-.card-container,
 .modal-content {
     content-visibility: auto;
+}
+
+/* .card-container 移除 content-visibility,可能导致布局问题 */
+
+
+/* ========================================
+   Modal Button Fixes
+   ======================================== */
+
+/* Ensure secondary buttons have proper styling */
+.secondary-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    color: #cbd5e1;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Cinema mode button fixes */
+.cinema-controls .glass-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.cinema-controls .glass-btn.circle {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    padding: 0;
+}
+
+/* Challenge modal button fixes */
+.challenge-panel .secondary-btn {
+    width: 100%;
+    margin-top: 1rem;
 }

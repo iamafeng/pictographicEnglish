@@ -33,6 +33,7 @@ function isWordLearned(word) {
 let currentTab = 'plaza';
 let currentPage = 1;
 const itemsPerPage = 20;
+let currentDifficultyFilter = 'all';
 
 function saveLearned() {
     localStorage.setItem('learned_words', JSON.stringify(learnedWords));
@@ -49,6 +50,44 @@ function showToast(message) {
         toast.show(message);
     } else {
         console.log(message);
+    }
+}
+
+// Filter words by difficulty level
+function filterByDifficulty(words, difficultyLevel) {
+    if (difficultyLevel === 'all') {
+        return words;
+    }
+    const level = parseInt(difficultyLevel);
+    return words.filter(w => w.difficulty === level);
+}
+
+// Update difficulty count display
+function updateDifficultyCount(words) {
+    const counts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+    words.forEach(w => {
+        if (w.difficulty >= 1 && w.difficulty <= 5) {
+            counts[w.difficulty]++;
+        }
+    });
+    
+    // Update option text with counts
+    const difficultyFilter = document.getElementById('difficulty-filter');
+    if (difficultyFilter) {
+        const stars = ['⭐', '⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐⭐⭐⭐'];
+        for (let i = 1; i <= 5; i++) {
+            const option = difficultyFilter.querySelector(`option[value="${i}"]`);
+            if (option) {
+                option.textContent = `${stars[i-1]} Level ${i} (${counts[i]})`;
+            }
+        }
+    }
+    
+    // Update result count
+    const resultCountEl = document.getElementById('filter-result-count');
+    if (resultCountEl) {
+        const filtered = filterByDifficulty(words, currentDifficultyFilter);
+        resultCountEl.textContent = `显示 ${filtered.length} 个单词`;
     }
 }
 
@@ -256,8 +295,22 @@ function createCard(wordData) {
     const isLearned = isWordLearned(wordData.word);
     card.className = `card ${isLearned ? 'is-learned' : ''}`;
 
+    // Generate difficulty stars
+    const difficulty = wordData.difficulty || 1;
+    const stars = '⭐'.repeat(Math.min(Math.max(difficulty, 1), 5));
+
+    // Generate tags HTML (display up to 3 tags)
+    const tags = wordData.tags || [];
+    const displayTags = tags.slice(0, 3);
+    const tagsHTML = displayTags.length > 0 
+        ? `<div class="tags-container">
+            ${displayTags.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+           </div>`
+        : '';
+
     card.innerHTML = `
         <div class="card-face card-front">
+            <div class="difficulty-badge" title="难度等级 ${difficulty}">${stars}</div>
             <div class="card-front-main">
                 <div class="pictogram-container">${wordData.svg || `<div class="word-placeholder">${wordData.word}</div>`}</div>
                 <div class="visual-label">${wordData.word}</div>
@@ -269,6 +322,7 @@ function createCard(wordData) {
             <div class="meaning">${wordData.meaning}</div>
             <div class="example">${wordData.example}</div>
             <div class="example-cn">${wordData.exampleCn}</div>
+            ${tagsHTML}
             <div class="audio-controls">
                 <button class="play-btn" data-text="${wordData.word}">🔊 单词</button>
                 <button class="play-btn" data-text="${wordData.example}">🔊 句子</button>
@@ -354,6 +408,15 @@ function render(filter = '') {
     } else if (currentTab === 'library') {
         filtered = filtered.filter(w => isWordLearned(w.word));
     }
+
+    // Apply difficulty filter
+    filtered = filterByDifficulty(filtered, currentDifficultyFilter);
+
+    // Update difficulty count display
+    const allWordsForTab = currentTab === 'plaza' 
+        ? words.filter(w => !isWordLearned(w.word))
+        : words.filter(w => isWordLearned(w.word));
+    updateDifficultyCount(allWordsForTab);
 
     const totalPages = Math.ceil(filtered.length / itemsPerPage) || 1;
     if (currentPage > totalPages) currentPage = totalPages;
@@ -518,9 +581,22 @@ function initApp() {
             btn.classList.add('active');
             currentTab = btn.dataset.tab;
             currentPage = 1;
+            currentDifficultyFilter = 'all'; // Reset filter when switching tabs
+            const difficultyFilter = document.getElementById('difficulty-filter');
+            if (difficultyFilter) difficultyFilter.value = 'all';
             render();
         };
     });
+
+    // Difficulty Filter
+    const difficultyFilter = document.getElementById('difficulty-filter');
+    if (difficultyFilter) {
+        difficultyFilter.addEventListener('change', (e) => {
+            currentDifficultyFilter = e.target.value;
+            currentPage = 1; // Reset to page 1 when filter changes
+            render();
+        });
+    }
 
     // Challenge Control
     if (challengeBtn) challengeBtn.onclick = () => challengeOverlay?.classList.add('active');
@@ -589,6 +665,28 @@ function initApp() {
     // Initial render
     saveLearned();
     render();
+
+    // Add click-outside-to-close functionality for all modals
+    const modals = [
+        'settings-modal',
+        'challenge-overlay',
+        'game-modal',
+        'connect-game-modal',
+        'cinema-overlay',
+        'custom-word-modal'
+    ];
+
+    modals.forEach(modalId => {
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.addEventListener('click', (e) => {
+                // Close modal if clicking on the modal backdrop (not the content)
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                }
+            });
+        }
+    });
 
     console.log('✅ Application initialized successfully');
 }

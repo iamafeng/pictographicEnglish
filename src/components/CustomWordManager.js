@@ -101,52 +101,153 @@ class CustomWordManager {
 
                     <!-- Guide Tab -->
                     <div id="tab-guide" class="tab-content">
-                        <h3>快速使用指南</h3>
+                        <h3>📖 完整使用指南</h3>
                         <div class="guide-scrollable">
                             <section class="guide-section">
-                                <h4>1. 单词添加 (逐个)</h4>
-                                <p>填写基本信息，点击<strong>AI视觉生成</strong>可调用模型生成配图，或点击<strong>上传SVG</strong>使用本地文件。</p>
+                                <h4>🤖 AI 自动补全功能</h4>
+                                <p><strong>使用的 AI 服务:</strong> Pollinations 免费文本生成 API</p>
+                                <p><strong>功能说明:</strong> 输入单词后点击"AI自动补全",系统会自动生成音标、含义、例句和中文翻译。</p>
+                                <p><strong>如果失败:</strong></p>
+                                <ul>
+                                    <li>检查网络连接是否正常</li>
+                                    <li>稍后重试(免费 API 可能有速率限制)</li>
+                                    <li>使用下方的外部 AI 生成方案</li>
+                                </ul>
                             </section>
 
                             <section class="guide-section">
-                                <h4>2. 批量注入 (5000+扩充必备)</h4>
-                                <p>这是扩展词汇量的主要手段：</p>
-                                <ul>
-                                    <li>使用项目根目录下的 <code>prompt.md</code> 指令发送给 AI。</li>
-                                    <li>将 AI 生成的 JSON 数组粘贴到<strong>快速注入</strong>框内。</li>
-                                    <li>点击"校验并预览"检查格式，确认无误后点击"立即注入"。</li>
-                                </ul>
-                                <div class="code-example"><pre>[
+                                <h4>1️⃣ 单词添加 (逐个)</h4>
+                                <p><strong>推荐流程:</strong></p>
+                                <ol>
+                                    <li>输入单词,点击"🤖 AI自动补全"</li>
+                                    <li>检查并修改自动生成的内容</li>
+                                    <li>点击"基础方案"生成简单 SVG,或"AI 视觉生成"生成图片</li>
+                                    <li>预览确认后保存</li>
+                                </ol>
+                                <p><strong>手动填写:</strong> 如果 AI 自动补全失败,可以手动填写所有字段,或使用外部 AI 生成。</p>
+                            </section>
+
+                            <section class="guide-section">
+                                <h4>2️⃣ 批量注入 (快速扩充词库)</h4>
+                                <p><strong>这是扩展词汇量的主要方式!</strong> 适合添加 10-1000+ 个单词。</p>
+                                
+                                <p><strong>完整流程:</strong></p>
+                                <ol>
+                                    <li><strong>准备单词列表</strong>
+                                        <div class="code-example"><pre>adventure, beautiful, challenge, discover, energy</pre></div>
+                                    </li>
+                                    <li><strong>使用 AI 生成 JSON</strong>
+                                        <p>复制以下提示词,发送给 ChatGPT/Claude/DeepSeek 等 AI:</p>
+                                        <div class="code-example"><pre>请为以下英语单词列表生成完整的学习数据,返回 JSON 数组格式。
+
+单词列表:
+adventure, beautiful, challenge
+
+每个单词需要包含:
+1. word: 英语单词(小写)
+2. phonetic: IPA 国际音标,用方括号包裹,如 [ˈæpl]
+3. meaning: 中文含义,格式为 "词性. 中文",如 "n. 苹果"
+4. example: 英文例句,简单实用,10-15个单词
+5. exampleCn: 例句的中文翻译
+6. svg: 象形 SVG 代码,要求:
+   - viewBox="0 0 120 60"
+   - 包含单词文本(大写、居中、加粗)
+   - 添加简单的象形图形元素
+   - 使用 fill="currentColor"
+   - 扁平极简风格
+
+返回纯 JSON 数组,不要用 markdown 代码块。
+
+示例格式:
+[
   {
     "word": "apple",
-    "meaning": "n. 苹果",
     "phonetic": "[ˈæpl]",
-    "example": "I eat an apple.",
-    "exampleCn": "我吃苹果。",
-    "svg": "&lt;svg&gt;...&lt;/svg&gt;"
+    "meaning": "n. 苹果",
+    "example": "I eat an apple every day.",
+    "exampleCn": "我每天吃一个苹果。",
+    "svg": "&lt;svg viewBox=\\"0 0 120 60\\"&gt;&lt;text x=\\"60\\" y=\\"35\\" text-anchor=\\"middle\\" font-size=\\"24\\" font-weight=\\"bold\\" fill=\\"currentColor\\"&gt;APPLE&lt;/text&gt;&lt;/svg&gt;"
   }
 ]</pre></div>
+                                    </li>
+                                    <li><strong>复制 AI 返回的 JSON</strong>
+                                        <p>如果 AI 返回的是 markdown 代码块(三个反引号json...三个反引号),请删除代码块标记,只保留纯 JSON。</p>
+                                    </li>
+                                    <li><strong>粘贴到"快速注入"标签页</strong></li>
+                                    <li><strong>点击"校验并预览"</strong> - 检查格式是否正确</li>
+                                    <li><strong>点击"立即注入到库"</strong> - 完成导入</li>
+                                </ol>
+
+                                <p><strong>💡 提示:</strong> 完整的 AI 提示词模板请查看项目根目录的 <code>ai-word-generation-prompt.md</code> 文件。</p>
                             </section>
 
                             <section class="guide-section">
-                                <h4>3. SVG 设计规范</h4>
-                                <p>为保证显示效果，自定义 SVG 请遵循：</p>
+                                <h4>3️⃣ SVG 设计规范</h4>
+                                <p>为保证显示效果,自定义 SVG 请遵循:</p>
                                 <ul>
-                                    <li>ViewBox 统一使用 <code>0 0 120 60</code></li>
-                                    <li>文字层必须居中：<code>x="60" text-anchor="middle"</code></li>
-                                    <li>装饰元素建议设置 <code>opacity="0.4"</code></li>
+                                    <li>ViewBox 统一使用 <code>viewBox="0 0 120 60"</code></li>
+                                    <li>文字层必须居中: <code>x="60" text-anchor="middle"</code></li>
+                                    <li>文字垂直位置: <code>y="35"</code></li>
+                                    <li>文字加粗: <code>font-weight="bold"</code></li>
+                                    <li>颜色使用: <code>fill="currentColor"</code> 或 <code>stroke="currentColor"</code></li>
+                                    <li>装饰元素建议设置 <code>opacity="0.3-0.5"</code></li>
                                 </ul>
-                                <p><strong>💡 如何让 AI 帮你写 SVG 源码？</strong><br>
-                                复制以下提示词发给任意大语言模型（如 ChatGPT, DeepSeek），然后把代码粘在输入框里：</p>
-                                <div class="code-example"><pre>
-请帮我为一个英语单词设计一个扁平极简风格的象形 SVG。
-要求：
-1. 宽 120，高 60 (viewBox="0 0 120 60")
-2. 内部必须有单词文本元素，大写加粗，居中对齐 
-3. 加少量极简图形线条修饰。
-4. 所有颜色必须用 fill="currentColor" 或 stroke="currentColor"
-单词是: [你想添加的单词]
-                                </pre></div>
+                                
+                                <p><strong>简单示例:</strong></p>
+                                <div class="code-example"><pre>&lt;svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;text x="60" y="35" text-anchor="middle" 
+        font-size="24" font-weight="bold" 
+        fill="currentColor"&gt;WORD&lt;/text&gt;
+  &lt;circle cx="30" cy="30" r="15" 
+          fill="none" stroke="currentColor" 
+          stroke-width="2" opacity="0.4"/&gt;
+&lt;/svg&gt;</pre></div>
+                            </section>
+
+                            <section class="guide-section">
+                                <h4>4️⃣ 推荐的 AI 服务</h4>
+                                <table class="ai-services-table">
+                                    <tr>
+                                        <th>AI 服务</th>
+                                        <th>推荐度</th>
+                                        <th>说明</th>
+                                    </tr>
+                                    <tr>
+                                        <td>ChatGPT (GPT-4)</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                        <td>JSON 格式准确,SVG 质量高</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Claude</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                        <td>理解能力强,输出稳定</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DeepSeek</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                        <td>免费,中文支持好</td>
+                                    </tr>
+                                    <tr>
+                                        <td>文心一言</td>
+                                        <td>⭐⭐⭐</td>
+                                        <td>免费,中文原生</td>
+                                    </tr>
+                                </table>
+                            </section>
+
+                            <section class="guide-section">
+                                <h4>❓ 常见问题</h4>
+                                <p><strong>Q: AI 自动补全一直失败怎么办?</strong></p>
+                                <p>A: Pollinations API 是免费服务,可能不稳定。建议使用外部 AI(ChatGPT/DeepSeek)生成完整数据,然后手动填写或批量导入。</p>
+                                
+                                <p><strong>Q: AI 返回的是 markdown 代码块,不是纯 JSON?</strong></p>
+                                <p>A: 删除开头的三个反引号json和结尾的三个反引号,只保留中间的 JSON 内容。</p>
+                                
+                                <p><strong>Q: 批量导入时提示"格式错误"?</strong></p>
+                                <p>A: 检查 JSON 格式是否正确,可以使用在线 JSON 验证工具。确保是数组格式 [...]。</p>
+                                
+                                <p><strong>Q: SVG 显示不正常?</strong></p>
+                                <p>A: 检查 viewBox 是否为 "0 0 120 60",文字是否居中对齐。</p>
                             </section>
                         </div>
                         <div class="modal-actions">

@@ -196,7 +196,7 @@ const words = [
         "example": "Open the box.",
         "exampleCn": "打开盒子。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "action"
         ],
@@ -278,7 +278,7 @@ const words = [
         "example": "You are right!",
         "exampleCn": "你是对的！",
         "category": "preposition",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "direction",
             "position"
@@ -292,7 +292,7 @@ const words = [
         "example": "The cat is in the box.",
         "exampleCn": "猫在盒子里。",
         "category": "preposition",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "position"
         ],
@@ -318,7 +318,7 @@ const words = [
         "example": "The book is on the table.",
         "exampleCn": "书在桌子上。",
         "category": "preposition",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "position"
         ],
@@ -344,7 +344,7 @@ const words = [
         "example": "What's under the cliff?",
         "exampleCn": "悬崖下有什么？",
         "category": "preposition",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "position"
         ],
@@ -357,7 +357,7 @@ const words = [
         "example": "The long line goes through the hole.",
         "exampleCn": "长线穿过了孔。",
         "category": "preposition",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "position",
             "movement"
@@ -412,7 +412,7 @@ const words = [
         "example": "Draw a square.",
         "exampleCn": "画一个正方形。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "shape"
         ],
@@ -425,7 +425,7 @@ const words = [
         "example": "Draw a circle.",
         "exampleCn": "画一个圆。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "shape"
         ],
@@ -464,7 +464,7 @@ const words = [
         "example": "A small bird.",
         "exampleCn": "一只小鸟。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "size"
         ],
@@ -477,7 +477,7 @@ const words = [
         "example": "He is very tall.",
         "exampleCn": "他很高。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "size"
         ],
@@ -490,7 +490,7 @@ const words = [
         "example": "A short pencil.",
         "exampleCn": "一支短铅笔。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "size"
         ],
@@ -503,7 +503,7 @@ const words = [
         "example": "She has got long legs.",
         "exampleCn": "她有一双长腿。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "size"
         ],
@@ -607,7 +607,7 @@ const words = [
         "example": "Three cats.",
         "exampleCn": "三只猫。",
         "category": "number",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "number"
         ],
@@ -676,7 +676,7 @@ const words = [
         "example": "Look out the window.",
         "exampleCn": "看窗外。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "object",
             "daily"
@@ -704,7 +704,7 @@ const words = [
         "example": "Put it on the table.",
         "exampleCn": "把它放在桌子上。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "object",
             "daily"
@@ -718,7 +718,7 @@ const words = [
         "example": "The village still uses well water.",
         "exampleCn": "村里人依然饮用井水。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "object"
         ],
@@ -731,7 +731,7 @@ const words = [
         "example": "How long does a human being stay pregnant?",
         "exampleCn": "人类孕期是多长？",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -798,7 +798,7 @@ const words = [
         "example": "This young dancer is doing a cartwheel.",
         "exampleCn": "这个年轻的舞者在表演侧手翻。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "age"
         ],
@@ -811,7 +811,7 @@ const words = [
         "example": "The sword is in his belly, but he is not dead yet.",
         "exampleCn": "剑已经插在他腹部，但他还没有死。",
         "category": "adverb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "time"
         ],
@@ -824,7 +824,7 @@ const words = [
         "example": "Though it says to no smoke, I will anyways.",
         "exampleCn": "虽然这里写着禁止吸烟，但我还是要抽。",
         "category": "conjunction",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "logic"
         ],
@@ -837,7 +837,7 @@ const words = [
         "example": "This is abandon.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -850,7 +850,7 @@ const words = [
         "example": "This is ability.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -863,7 +863,7 @@ const words = [
         "example": "This is aboard.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -876,7 +876,7 @@ const words = [
         "example": "This is absolute.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -889,7 +889,7 @@ const words = [
         "example": "This is absorb.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -902,7 +902,7 @@ const words = [
         "example": "This is academic.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -915,7 +915,7 @@ const words = [
         "example": "This is accept.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -928,7 +928,7 @@ const words = [
         "example": "This is access.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -941,7 +941,7 @@ const words = [
         "example": "This is accident.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -954,7 +954,7 @@ const words = [
         "example": "This is accompany.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -967,7 +967,7 @@ const words = [
         "example": "This is accomplish.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -980,7 +980,7 @@ const words = [
         "example": "This is according.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -993,7 +993,7 @@ const words = [
         "example": "This is account.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1006,7 +1006,7 @@ const words = [
         "example": "This is accurate.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1019,7 +1019,7 @@ const words = [
         "example": "This is accuse.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1032,7 +1032,7 @@ const words = [
         "example": "This is achieve.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1045,7 +1045,7 @@ const words = [
         "example": "This is acquire.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1058,7 +1058,7 @@ const words = [
         "example": "This is action.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1071,7 +1071,7 @@ const words = [
         "example": "Active child.",
         "exampleCn": "活跃的孩子。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "character"
         ],
@@ -1084,7 +1084,7 @@ const words = [
         "example": "This is activity.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -1110,7 +1110,7 @@ const words = [
         "example": "This is actress.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1123,7 +1123,7 @@ const words = [
         "example": "This is actual.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1149,7 +1149,7 @@ const words = [
         "example": "This is addition.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1162,7 +1162,7 @@ const words = [
         "example": "Home address.",
         "exampleCn": "家庭住址。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -1175,7 +1175,7 @@ const words = [
         "example": "This is adjust.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1188,7 +1188,7 @@ const words = [
         "example": "This is admire.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1240,7 +1240,7 @@ const words = [
         "example": "This is advance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1253,7 +1253,7 @@ const words = [
         "example": "This is advantage.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1266,7 +1266,7 @@ const words = [
         "example": "This is adventure.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1279,7 +1279,7 @@ const words = [
         "example": "This is advertise.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1292,7 +1292,7 @@ const words = [
         "example": "This is advice.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1305,7 +1305,7 @@ const words = [
         "example": "This is advise.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1318,7 +1318,7 @@ const words = [
         "example": "This is affair.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1331,7 +1331,7 @@ const words = [
         "example": "This is affect.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1344,7 +1344,7 @@ const words = [
         "example": "This is afford.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1357,7 +1357,7 @@ const words = [
         "example": "Don't be afraid.",
         "exampleCn": "别害怕。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -1370,7 +1370,7 @@ const words = [
         "example": "This is afternoon.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1396,7 +1396,7 @@ const words = [
         "example": "This is agency.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1409,7 +1409,7 @@ const words = [
         "example": "This is agenda.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1435,7 +1435,7 @@ const words = [
         "example": "This is aggressive.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -1448,7 +1448,7 @@ const words = [
         "example": "I agree.",
         "exampleCn": "我同意。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "action"
         ],
@@ -1461,7 +1461,7 @@ const words = [
         "example": "This is agreement.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1474,7 +1474,7 @@ const words = [
         "example": "This is agriculture.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -1513,7 +1513,7 @@ const words = [
         "example": "This is aircraft.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1526,7 +1526,7 @@ const words = [
         "example": "To airport.",
         "exampleCn": "去机场。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -1552,7 +1552,7 @@ const words = [
         "example": "This is alcohol.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1578,7 +1578,7 @@ const words = [
         "example": "This is alliance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1604,7 +1604,7 @@ const words = [
         "example": "This is almost.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1643,7 +1643,7 @@ const words = [
         "example": "This is alphabet.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1656,7 +1656,7 @@ const words = [
         "example": "This is already.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1669,7 +1669,7 @@ const words = [
         "example": "This is alternative.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -1682,7 +1682,7 @@ const words = [
         "example": "This is although.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1695,7 +1695,7 @@ const words = [
         "example": "This is altitude.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1708,7 +1708,7 @@ const words = [
         "example": "This is altogether.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -1721,7 +1721,7 @@ const words = [
         "example": "Always happy.",
         "exampleCn": "总是开心。",
         "category": "adverb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "time"
         ],
@@ -1734,7 +1734,7 @@ const words = [
         "example": "This is amazing.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1747,7 +1747,7 @@ const words = [
         "example": "This is ambition.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1760,7 +1760,7 @@ const words = [
         "example": "This is ambulance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1786,7 +1786,7 @@ const words = [
         "example": "This is amount.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1812,7 +1812,7 @@ const words = [
         "example": "This is analyze.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1825,7 +1825,7 @@ const words = [
         "example": "This is ancestor.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -1838,7 +1838,7 @@ const words = [
         "example": "This is ancient.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1877,7 +1877,7 @@ const words = [
         "example": "He is angry.",
         "exampleCn": "他生气了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "emotion"
         ],
@@ -1890,7 +1890,7 @@ const words = [
         "example": "This is animal.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1903,7 +1903,7 @@ const words = [
         "example": "This is announce.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1929,7 +1929,7 @@ const words = [
         "example": "This is annual.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1942,7 +1942,7 @@ const words = [
         "example": "This is another.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1955,7 +1955,7 @@ const words = [
         "example": "This is answer.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1981,7 +1981,7 @@ const words = [
         "example": "This is anxiety.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -1994,7 +1994,7 @@ const words = [
         "example": "This is anybody.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2007,7 +2007,7 @@ const words = [
         "example": "This is anyhow.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2020,7 +2020,7 @@ const words = [
         "example": "This is anymore.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2033,7 +2033,7 @@ const words = [
         "example": "This is anyway.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2046,7 +2046,7 @@ const words = [
         "example": "This is anywhere.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2072,7 +2072,7 @@ const words = [
         "example": "This is apartment.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2085,7 +2085,7 @@ const words = [
         "example": "This is apologize.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2111,7 +2111,7 @@ const words = [
         "example": "This is appearance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2124,7 +2124,7 @@ const words = [
         "example": "This is appetite.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2137,7 +2137,7 @@ const words = [
         "example": "An apple a day.",
         "exampleCn": "一天一苹果。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "food"
         ],
@@ -2150,7 +2150,7 @@ const words = [
         "example": "This is application.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2163,7 +2163,7 @@ const words = [
         "example": "This is appoint.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2176,7 +2176,7 @@ const words = [
         "example": "This is appreciate.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2189,7 +2189,7 @@ const words = [
         "example": "This is approach.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2202,7 +2202,7 @@ const words = [
         "example": "This is appropriate.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2215,7 +2215,7 @@ const words = [
         "example": "This is approval.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2228,7 +2228,7 @@ const words = [
         "example": "This is approve.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2241,7 +2241,7 @@ const words = [
         "example": "This is architect.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2254,7 +2254,7 @@ const words = [
         "example": "This is architecture.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2267,7 +2267,7 @@ const words = [
         "example": "In this area.",
         "exampleCn": "在这一地区。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -2293,7 +2293,7 @@ const words = [
         "example": "This is argument.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2319,7 +2319,7 @@ const words = [
         "example": "This is arithmetic.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2345,7 +2345,7 @@ const words = [
         "example": "This is armchair.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2371,7 +2371,7 @@ const words = [
         "example": "This is around.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2384,7 +2384,7 @@ const words = [
         "example": "This is arrange.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2397,7 +2397,7 @@ const words = [
         "example": "This is arrest.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2410,7 +2410,7 @@ const words = [
         "example": "This is arrival.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2423,7 +2423,7 @@ const words = [
         "example": "This is arrive.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2462,7 +2462,7 @@ const words = [
         "example": "This is article.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2475,7 +2475,7 @@ const words = [
         "example": "This is artificial.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2488,7 +2488,7 @@ const words = [
         "example": "A great artist.",
         "exampleCn": "一位伟大的艺术家。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -2501,7 +2501,7 @@ const words = [
         "example": "This is artistic.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2514,7 +2514,7 @@ const words = [
         "example": "This is ashamed.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2540,7 +2540,7 @@ const words = [
         "example": "This is aspect.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2553,7 +2553,7 @@ const words = [
         "example": "This is aspirin.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2566,7 +2566,7 @@ const words = [
         "example": "This is assassin.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2579,7 +2579,7 @@ const words = [
         "example": "This is assemble.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2592,7 +2592,7 @@ const words = [
         "example": "This is assembly.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2605,7 +2605,7 @@ const words = [
         "example": "This is assert.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2618,7 +2618,7 @@ const words = [
         "example": "This is assess.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2644,7 +2644,7 @@ const words = [
         "example": "This is assign.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2657,7 +2657,7 @@ const words = [
         "example": "This is assist.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2670,7 +2670,7 @@ const words = [
         "example": "Shop assistant.",
         "exampleCn": "导购员。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "job"
         ],
@@ -2683,7 +2683,7 @@ const words = [
         "example": "This is associate.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2696,7 +2696,7 @@ const words = [
         "example": "This is association.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2709,7 +2709,7 @@ const words = [
         "example": "This is assume.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2722,7 +2722,7 @@ const words = [
         "example": "This is assure.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2735,7 +2735,7 @@ const words = [
         "example": "This is astonish.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2748,7 +2748,7 @@ const words = [
         "example": "This is athlete.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2761,7 +2761,7 @@ const words = [
         "example": "This is atmosphere.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2774,7 +2774,7 @@ const words = [
         "example": "Small atom.",
         "exampleCn": "微小的原子。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 2,
         "tags": [
             "science"
         ],
@@ -2787,7 +2787,7 @@ const words = [
         "example": "This is attach.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2800,7 +2800,7 @@ const words = [
         "example": "This is attack.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2813,7 +2813,7 @@ const words = [
         "example": "This is attempt.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2826,7 +2826,7 @@ const words = [
         "example": "This is attend.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2839,7 +2839,7 @@ const words = [
         "example": "This is attention.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2852,7 +2852,7 @@ const words = [
         "example": "This is attitude.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2865,7 +2865,7 @@ const words = [
         "example": "This is attract.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2878,7 +2878,7 @@ const words = [
         "example": "This is attractive.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2891,7 +2891,7 @@ const words = [
         "example": "This is attribute.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -2904,7 +2904,7 @@ const words = [
         "example": "This is audience.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2930,7 +2930,7 @@ const words = [
         "example": "This is author.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2943,7 +2943,7 @@ const words = [
         "example": "This is authority.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2956,7 +2956,7 @@ const words = [
         "example": "This is automatic.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2969,7 +2969,7 @@ const words = [
         "example": "This is autumn.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -2982,7 +2982,7 @@ const words = [
         "example": "This is available.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "extended"
         ],
@@ -2995,7 +2995,7 @@ const words = [
         "example": "This is avenue.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3008,7 +3008,7 @@ const words = [
         "example": "This is average.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3086,7 +3086,7 @@ const words = [
         "example": "This is awesome.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3112,7 +3112,7 @@ const words = [
         "example": "This is awkward.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3125,7 +3125,7 @@ const words = [
         "example": "The baby is cute.",
         "exampleCn": "婴儿很可爱。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "family"
         ],
@@ -3138,7 +3138,7 @@ const words = [
         "example": "This is bachelor.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -3151,7 +3151,7 @@ const words = [
         "example": "This is background.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -3164,7 +3164,7 @@ const words = [
         "example": "This is backward.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3216,7 +3216,7 @@ const words = [
         "example": "This is baggage.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3229,7 +3229,7 @@ const words = [
         "example": "This is balance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3242,7 +3242,7 @@ const words = [
         "example": "This is balloon.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3255,7 +3255,7 @@ const words = [
         "example": "Yellow banana.",
         "exampleCn": "黄香蕉。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -3268,7 +3268,7 @@ const words = [
         "example": "This is bandage.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3281,7 +3281,7 @@ const words = [
         "example": "This is bankrupt.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3294,7 +3294,7 @@ const words = [
         "example": "This is banner.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3307,7 +3307,7 @@ const words = [
         "example": "This is barbecue.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -3320,7 +3320,7 @@ const words = [
         "example": "This is barely.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3333,7 +3333,7 @@ const words = [
         "example": "This is bargain.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3346,7 +3346,7 @@ const words = [
         "example": "This is barrel.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3359,7 +3359,7 @@ const words = [
         "example": "This is barrier.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3372,7 +3372,7 @@ const words = [
         "example": "This is base.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3385,7 +3385,7 @@ const words = [
         "example": "Baseball game.",
         "exampleCn": "棒球比赛。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "sport"
         ],
@@ -3398,7 +3398,7 @@ const words = [
         "example": "This is basement.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -3437,7 +3437,7 @@ const words = [
         "example": "A fruit basket.",
         "exampleCn": "一个水果篮。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "house"
         ],
@@ -3450,7 +3450,7 @@ const words = [
         "example": "I play basketball.",
         "exampleCn": "我打篮球。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 5,
         "tags": [
             "sport"
         ],
@@ -3476,7 +3476,7 @@ const words = [
         "example": "This is bathe.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3489,7 +3489,7 @@ const words = [
         "example": "This is bathroom.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3502,7 +3502,7 @@ const words = [
         "example": "Low battery.",
         "exampleCn": "电量低。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -3515,7 +3515,7 @@ const words = [
         "example": "This is battle.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3541,7 +3541,7 @@ const words = [
         "example": "This is beacon.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3554,7 +3554,7 @@ const words = [
         "example": "This is bead.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3567,7 +3567,7 @@ const words = [
         "example": "This is beak.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3580,7 +3580,7 @@ const words = [
         "example": "This is beam.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3593,7 +3593,7 @@ const words = [
         "example": "This is bean.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3619,7 +3619,7 @@ const words = [
         "example": "This is beard.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3632,7 +3632,7 @@ const words = [
         "example": "This is beast.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3645,7 +3645,7 @@ const words = [
         "example": "This is beat.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3658,7 +3658,7 @@ const words = [
         "example": "Beautiful girl.",
         "exampleCn": "漂亮的女孩。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 5,
         "tags": [
             "description"
         ],
@@ -3671,7 +3671,7 @@ const words = [
         "example": "Inner beauty.",
         "exampleCn": "内在美",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -3685,7 +3685,7 @@ const words = [
         "example": "This is because.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3698,7 +3698,7 @@ const words = [
         "example": "This is become.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3724,7 +3724,7 @@ const words = [
         "example": "This is bedroom.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3750,7 +3750,7 @@ const words = [
         "example": "This is beech.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3763,7 +3763,7 @@ const words = [
         "example": "This is beef.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3776,7 +3776,7 @@ const words = [
         "example": "This is beer.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3789,7 +3789,7 @@ const words = [
         "example": "This is beetle.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3802,7 +3802,7 @@ const words = [
         "example": "This is before.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3815,7 +3815,7 @@ const words = [
         "example": "This is beggar.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3841,7 +3841,7 @@ const words = [
         "example": "This is beginner.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -3854,7 +3854,7 @@ const words = [
         "example": "This is behave.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3867,7 +3867,7 @@ const words = [
         "example": "This is behavior.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -3880,7 +3880,7 @@ const words = [
         "example": "This is behind.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3893,7 +3893,7 @@ const words = [
         "example": "This is belief.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3906,7 +3906,7 @@ const words = [
         "example": "Believe me.",
         "exampleCn": "相信我",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -3933,7 +3933,7 @@ const words = [
         "example": "This is belong.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3946,7 +3946,7 @@ const words = [
         "example": "This is beloved.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -3972,7 +3972,7 @@ const words = [
         "example": "A leather belt.",
         "exampleCn": "一条皮带。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "clothing"
         ],
@@ -3985,7 +3985,7 @@ const words = [
         "example": "This is bench.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -3998,7 +3998,7 @@ const words = [
         "example": "This is bend.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4011,7 +4011,7 @@ const words = [
         "example": "This is beneath.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4024,7 +4024,7 @@ const words = [
         "example": "This is benefit.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4050,7 +4050,7 @@ const words = [
         "example": "This is beside.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4063,7 +4063,7 @@ const words = [
         "example": "This is besides.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4076,7 +4076,7 @@ const words = [
         "example": "This is best.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4089,7 +4089,7 @@ const words = [
         "example": "This is betray.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4102,7 +4102,7 @@ const words = [
         "example": "This is better.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4115,7 +4115,7 @@ const words = [
         "example": "This is between.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4128,7 +4128,7 @@ const words = [
         "example": "This is beyond.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4141,7 +4141,7 @@ const words = [
         "example": "This is bicycle.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4154,7 +4154,7 @@ const words = [
         "example": "This is bid.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4167,7 +4167,7 @@ const words = [
         "example": "This is bike.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4180,7 +4180,7 @@ const words = [
         "example": "Pay the bill.",
         "exampleCn": "付账。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "finance"
         ],
@@ -4193,7 +4193,7 @@ const words = [
         "example": "This is billion.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4206,7 +4206,7 @@ const words = [
         "example": "This is bind.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4219,7 +4219,7 @@ const words = [
         "example": "This is biography.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "extended"
         ],
@@ -4232,7 +4232,7 @@ const words = [
         "example": "This is biology.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4258,7 +4258,7 @@ const words = [
         "example": "This is birth.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4271,7 +4271,7 @@ const words = [
         "example": "This is birthday.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4284,7 +4284,7 @@ const words = [
         "example": "This is biscuit.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4297,7 +4297,7 @@ const words = [
         "example": "This is bishop.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "extended"
         ],
@@ -4310,7 +4310,7 @@ const words = [
         "example": "This is bite.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4323,7 +4323,7 @@ const words = [
         "example": "Bitter coffee.",
         "exampleCn": "苦咖啡。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -4336,7 +4336,7 @@ const words = [
         "example": "This is blade.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4349,7 +4349,7 @@ const words = [
         "example": "This is blame.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4362,7 +4362,7 @@ const words = [
         "example": "This is blank.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4375,7 +4375,7 @@ const words = [
         "example": "Under the blanket.",
         "exampleCn": "在毯子下面。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "house"
         ],
@@ -4388,7 +4388,7 @@ const words = [
         "example": "This is blast.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4401,7 +4401,7 @@ const words = [
         "example": "This is blaze.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4414,7 +4414,7 @@ const words = [
         "example": "This is bleak.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "extended"
         ],
@@ -4427,7 +4427,7 @@ const words = [
         "example": "Blood is red.",
         "exampleCn": "血是红色的。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "body"
         ],
@@ -4440,7 +4440,7 @@ const words = [
         "example": "Blurry vision.",
         "exampleCn": "视力模糊。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -4453,7 +4453,7 @@ const words = [
         "example": "Dog loves bone.",
         "exampleCn": "狗爱骨头。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "body"
         ],
@@ -4466,7 +4466,7 @@ const words = [
         "example": "Boring film.",
         "exampleCn": "无聊的电影。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -4479,7 +4479,7 @@ const words = [
         "example": "Talk to my boss.",
         "exampleCn": "和我的老板谈谈。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "job"
         ],
@@ -4492,7 +4492,7 @@ const words = [
         "example": "A bottle of water.",
         "exampleCn": "一瓶水。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "kitchen"
         ],
@@ -4505,7 +4505,7 @@ const words = [
         "example": "At the bottom.",
         "exampleCn": "在底部。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "position"
         ],
@@ -4557,7 +4557,7 @@ const words = [
         "example": "Use your brain.",
         "exampleCn": "动动脑筋。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "body"
         ],
@@ -4635,7 +4635,7 @@ const words = [
         "example": "I have a brother.",
         "exampleCn": "我有一个兄弟。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -4648,7 +4648,7 @@ const words = [
         "example": "Brown wood.",
         "exampleCn": "棕色的木头。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "color"
         ],
@@ -4661,7 +4661,7 @@ const words = [
         "example": "Fix the bug.",
         "exampleCn": "修复漏洞。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tech"
         ],
@@ -4687,7 +4687,7 @@ const words = [
         "example": "A tall building.",
         "exampleCn": "一座高层建筑。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "place"
         ],
@@ -4700,7 +4700,7 @@ const words = [
         "example": "Cheese burger.",
         "exampleCn": "芝士汉堡。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -4713,7 +4713,7 @@ const words = [
         "example": "I am busy.",
         "exampleCn": "我很忙。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "character"
         ],
@@ -4726,7 +4726,7 @@ const words = [
         "example": "Bread and butter.",
         "exampleCn": "面包加黄油。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -4752,7 +4752,7 @@ const words = [
         "example": "Kitchen cabinet.",
         "exampleCn": "厨房橱柜。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "house"
         ],
@@ -4778,7 +4778,7 @@ const words = [
         "example": "Digital camera.",
         "exampleCn": "数码相机。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -4791,7 +4791,7 @@ const words = [
         "example": "Light a candle.",
         "exampleCn": "点燃蜡烛。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "house"
         ],
@@ -4804,7 +4804,7 @@ const words = [
         "example": "Sweet candy.",
         "exampleCn": "甜甜的糖果。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "food"
         ],
@@ -4856,7 +4856,7 @@ const words = [
         "example": "Be careful.",
         "exampleCn": "小心点。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "feeling"
         ],
@@ -4869,7 +4869,7 @@ const words = [
         "example": "Eat carrot.",
         "exampleCn": "吃胡萝卜。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -4882,7 +4882,7 @@ const words = [
         "example": "Carry a bag.",
         "exampleCn": "背着包。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "action"
         ],
@@ -4895,7 +4895,7 @@ const words = [
         "example": "Old castle.",
         "exampleCn": "古堡。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -4934,7 +4934,7 @@ const words = [
         "example": "Dark cave.",
         "exampleCn": "暗洞。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -4947,7 +4947,7 @@ const words = [
         "example": "Living cell.",
         "exampleCn": "活细胞。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "science"
         ],
@@ -4960,7 +4960,7 @@ const words = [
         "example": "In the center.",
         "exampleCn": "在中心。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "position"
         ],
@@ -4973,7 +4973,7 @@ const words = [
         "example": "21st century.",
         "exampleCn": "21世纪。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "time"
         ],
@@ -4986,7 +4986,7 @@ const words = [
         "example": "Iron chain.",
         "exampleCn": "铁链。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tool"
         ],
@@ -5025,7 +5025,7 @@ const words = [
         "example": "Cheap toys.",
         "exampleCn": "廉价玩具。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "finance"
         ],
@@ -5051,7 +5051,7 @@ const words = [
         "example": "Play chess.",
         "exampleCn": "下象棋。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "game"
         ],
@@ -5064,7 +5064,7 @@ const words = [
         "example": "Sweet chocolate.",
         "exampleCn": "甜巧克力。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "food"
         ],
@@ -5077,7 +5077,7 @@ const words = [
         "example": "Choose one.",
         "exampleCn": "选一个。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "action"
         ],
@@ -5103,7 +5103,7 @@ const words = [
         "example": "At cinema.",
         "exampleCn": "在电影院。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -5129,7 +5129,7 @@ const words = [
         "example": "Clean water.",
         "exampleCn": "干净的水。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -5142,7 +5142,7 @@ const words = [
         "example": "Clear sky.",
         "exampleCn": "晴朗的天空。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -5155,7 +5155,7 @@ const words = [
         "example": "A clever girl.",
         "exampleCn": "一个聪明的女孩。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -5168,7 +5168,7 @@ const words = [
         "example": "High cliff.",
         "exampleCn": "高崖。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -5181,7 +5181,7 @@ const words = [
         "example": "Climb a tree.",
         "exampleCn": "爬树。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "action"
         ],
@@ -5194,7 +5194,7 @@ const words = [
         "example": "Go to clinic.",
         "exampleCn": "去诊所。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "health"
         ],
@@ -5234,7 +5234,7 @@ const words = [
         "example": "It is cloudy.",
         "exampleCn": "天阴了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "weather"
         ],
@@ -5247,7 +5247,7 @@ const words = [
         "example": "Burn coal.",
         "exampleCn": "烧煤。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "material"
         ],
@@ -5273,7 +5273,7 @@ const words = [
         "example": "Write some code.",
         "exampleCn": "写代码。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tech"
         ],
@@ -5286,7 +5286,7 @@ const words = [
         "example": "Black coffee.",
         "exampleCn": "黑咖啡。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -5312,7 +5312,7 @@ const words = [
         "example": "It's cold outside.",
         "exampleCn": "外面很冷。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "weather",
             "feeling"
@@ -5326,7 +5326,7 @@ const words = [
         "example": "Sample collection.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5339,7 +5339,7 @@ const words = [
         "example": "In college.",
         "exampleCn": "在大学。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -5365,7 +5365,7 @@ const words = [
         "example": "Common sense.",
         "exampleCn": "常识。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -5378,7 +5378,7 @@ const words = [
         "example": "Sample community.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5404,7 +5404,7 @@ const words = [
         "example": "I like computer.",
         "exampleCn": "我喜欢电脑。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "tech"
         ],
@@ -5417,7 +5417,7 @@ const words = [
         "example": "Gain confidence.",
         "exampleCn": "获得自信",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "core",
             "noun"
@@ -5431,7 +5431,7 @@ const words = [
         "example": "Sample connection.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5444,7 +5444,7 @@ const words = [
         "example": "Consider it.",
         "exampleCn": "考虑一下",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "core",
             "verb"
@@ -5471,7 +5471,7 @@ const words = [
         "example": "Eat a cookie.",
         "exampleCn": "吃个饼干。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -5484,7 +5484,7 @@ const words = [
         "example": "Cool breeze.",
         "exampleCn": "凉爽的微风。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -5510,7 +5510,7 @@ const words = [
         "example": "What is the cost?",
         "exampleCn": "成本是多少？",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "finance"
         ],
@@ -5523,7 +5523,7 @@ const words = [
         "example": "Cotton shirt.",
         "exampleCn": "棉衬衫。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "material"
         ],
@@ -5536,7 +5536,7 @@ const words = [
         "example": "Bad cough.",
         "exampleCn": "咳嗽得厉害。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "health"
         ],
@@ -5562,7 +5562,7 @@ const words = [
         "example": "Take courage.",
         "exampleCn": "拿出勇气",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -5576,7 +5576,7 @@ const words = [
         "example": "My cousin.",
         "exampleCn": "我的堂兄。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -5616,7 +5616,7 @@ const words = [
         "example": "Different cultures.",
         "exampleCn": "不同的文化",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -5630,7 +5630,7 @@ const words = [
         "example": "Close the curtain.",
         "exampleCn": "拉上窗帘。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "house"
         ],
@@ -5643,7 +5643,7 @@ const words = [
         "example": "Good dancer.",
         "exampleCn": "好的舞者。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -5656,7 +5656,7 @@ const words = [
         "example": "Out of danger.",
         "exampleCn": "脱离危险。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -5669,7 +5669,7 @@ const words = [
         "example": "Dangerous dog.",
         "exampleCn": "危险的狗。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "description"
         ],
@@ -5708,7 +5708,7 @@ const words = [
         "example": "My daughter.",
         "exampleCn": "我的女儿。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -5721,7 +5721,7 @@ const words = [
         "example": "At dawn.",
         "exampleCn": "在黎明。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "time"
         ],
@@ -5734,7 +5734,7 @@ const words = [
         "example": "Life and death.",
         "exampleCn": "生死。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "abstract"
         ],
@@ -5747,7 +5747,7 @@ const words = [
         "example": "A decade ago.",
         "exampleCn": "十年前。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "time"
         ],
@@ -5760,7 +5760,7 @@ const words = [
         "example": "Decide now.",
         "exampleCn": "现在决定",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -5774,7 +5774,7 @@ const words = [
         "example": "Deep water.",
         "exampleCn": "深水。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -5787,7 +5787,7 @@ const words = [
         "example": "High degree.",
         "exampleCn": "高度。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -5800,7 +5800,7 @@ const words = [
         "example": "Sample department.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5813,7 +5813,7 @@ const words = [
         "example": "Sample description.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5826,7 +5826,7 @@ const words = [
         "example": "Hot desert.",
         "exampleCn": "炎热的沙漠。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -5852,7 +5852,7 @@ const words = [
         "example": "Develop a city.",
         "exampleCn": "发展城市",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -5866,7 +5866,7 @@ const words = [
         "example": "Real diamond.",
         "exampleCn": "真钻。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "material"
         ],
@@ -5879,7 +5879,7 @@ const words = [
         "example": "Healthy diet.",
         "exampleCn": "健康饮食。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "health"
         ],
@@ -5892,7 +5892,7 @@ const words = [
         "example": "Sample difference.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5905,7 +5905,7 @@ const words = [
         "example": "Difficult math.",
         "exampleCn": "难的数学。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "description"
         ],
@@ -5918,7 +5918,7 @@ const words = [
         "example": "Sample direction.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 4,
         "tags": [
             "advanced"
         ],
@@ -5931,7 +5931,7 @@ const words = [
         "example": "Dirty clothes.",
         "exampleCn": "脏衣服。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -5944,7 +5944,7 @@ const words = [
         "example": "Sample discussion.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -5957,7 +5957,7 @@ const words = [
         "example": "See a doctor.",
         "exampleCn": "看医生。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -5983,7 +5983,7 @@ const words = [
         "example": "Connect the dots.",
         "exampleCn": "连点。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "shape"
         ],
@@ -6035,7 +6035,7 @@ const words = [
         "example": "A taxi driver.",
         "exampleCn": "一名出租车司机。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -6048,7 +6048,7 @@ const words = [
         "example": "Beat the drum.",
         "exampleCn": "敲鼓。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "music"
         ],
@@ -6087,7 +6087,7 @@ const words = [
         "example": "At dusk.",
         "exampleCn": "在黄昏。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "time"
         ],
@@ -6100,7 +6100,7 @@ const words = [
         "example": "Clean the dust.",
         "exampleCn": "清灰。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -6152,7 +6152,7 @@ const words = [
         "example": "Easy job.",
         "exampleCn": "容易的工作。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -6165,7 +6165,7 @@ const words = [
         "example": "Global economy.",
         "exampleCn": "全球经济",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "core",
             "noun"
@@ -6179,7 +6179,7 @@ const words = [
         "example": "Sample education.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -6192,7 +6192,7 @@ const words = [
         "example": "Side effect.",
         "exampleCn": "副作用",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -6219,7 +6219,7 @@ const words = [
         "example": "Eighteen years old.",
         "exampleCn": "十八岁。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "number"
         ],
@@ -6232,7 +6232,7 @@ const words = [
         "example": "Huge elephant.",
         "exampleCn": "庞大的象。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "animal"
         ],
@@ -6245,7 +6245,7 @@ const words = [
         "example": "Eleven players.",
         "exampleCn": "十一名球员。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "number"
         ],
@@ -6258,7 +6258,7 @@ const words = [
         "example": "Send an email.",
         "exampleCn": "发封邮件。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "tech"
         ],
@@ -6271,7 +6271,7 @@ const words = [
         "example": "Empty box.",
         "exampleCn": "空盒子。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -6297,7 +6297,7 @@ const words = [
         "example": "Solar energy.",
         "exampleCn": "太阳能",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -6311,7 +6311,7 @@ const words = [
         "example": "Sample environment.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -6324,7 +6324,7 @@ const words = [
         "example": "Use an eraser.",
         "exampleCn": "用橡皮擦。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "school"
         ],
@@ -6337,7 +6337,7 @@ const words = [
         "example": "Exciting news.",
         "exampleCn": "令人兴奋的新闻。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "feeling"
         ],
@@ -6350,7 +6350,7 @@ const words = [
         "example": "Do exercise.",
         "exampleCn": "做运动。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "health"
         ],
@@ -6363,7 +6363,7 @@ const words = [
         "example": "Expensive car.",
         "exampleCn": "名贵的车。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "finance"
         ],
@@ -6376,7 +6376,7 @@ const words = [
         "example": "Sample experience.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -6389,7 +6389,7 @@ const words = [
         "example": "Please explain.",
         "exampleCn": "请解释一下",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -6403,7 +6403,7 @@ const words = [
         "example": "Sample expression.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -6442,7 +6442,7 @@ const words = [
         "example": "At factory.",
         "exampleCn": "在工厂。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -6455,7 +6455,7 @@ const words = [
         "example": "Fear of failure.",
         "exampleCn": "害怕失败。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -6481,7 +6481,7 @@ const words = [
         "example": "Happy family.",
         "exampleCn": "快乐家庭。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -6494,7 +6494,7 @@ const words = [
         "example": "Famous person.",
         "exampleCn": "名人。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -6520,7 +6520,7 @@ const words = [
         "example": "A busy farmer.",
         "exampleCn": "一位忙碌的农民。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -6560,7 +6560,7 @@ const words = [
         "example": "My father is tall.",
         "exampleCn": "我父亲很高。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -6573,7 +6573,7 @@ const words = [
         "example": "No fear.",
         "exampleCn": "无所畏惧。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "emotion"
         ],
@@ -6625,7 +6625,7 @@ const words = [
         "example": "Fifteen minutes.",
         "exampleCn": "十五分钟。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "number"
         ],
@@ -6638,7 +6638,7 @@ const words = [
         "example": "Stop fighting.",
         "exampleCn": "别打了。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "action"
         ],
@@ -6651,7 +6651,7 @@ const words = [
         "example": "Save the file.",
         "exampleCn": "保存文件。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "tech"
         ],
@@ -6677,7 +6677,7 @@ const words = [
         "example": "Fine day.",
         "exampleCn": "晴天。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -6690,7 +6690,7 @@ const words = [
         "example": "Finish the task.",
         "exampleCn": "完成任务。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "action"
         ],
@@ -6768,7 +6768,7 @@ const words = [
         "example": "The flower is red.",
         "exampleCn": "这朵花是红色的。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -6781,7 +6781,7 @@ const words = [
         "example": "Silver flute.",
         "exampleCn": "银笛。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "music"
         ],
@@ -6794,7 +6794,7 @@ const words = [
         "example": "Open the folder.",
         "exampleCn": "打开文件夹。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -6807,7 +6807,7 @@ const words = [
         "example": "Follow me.",
         "exampleCn": "跟着我。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "action"
         ],
@@ -6833,7 +6833,7 @@ const words = [
         "example": "Play football.",
         "exampleCn": "踢足球。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "sport"
         ],
@@ -6846,7 +6846,7 @@ const words = [
         "example": "Natural force.",
         "exampleCn": "自然力",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "core",
             "noun"
@@ -6873,7 +6873,7 @@ const words = [
         "example": "Sample foundation.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -6886,7 +6886,7 @@ const words = [
         "example": "Fourteen days.",
         "exampleCn": "十四天。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "number"
         ],
@@ -6899,7 +6899,7 @@ const words = [
         "example": "Free time.",
         "exampleCn": "空闲时间。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -6912,7 +6912,7 @@ const words = [
         "example": "Fight for freedom.",
         "exampleCn": "争取自由",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -6926,7 +6926,7 @@ const words = [
         "example": "Fresh fruit.",
         "exampleCn": "新鲜水果。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -6952,7 +6952,7 @@ const words = [
         "example": "He is my friend.",
         "exampleCn": "他是我的朋友。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "people"
         ],
@@ -6978,7 +6978,7 @@ const words = [
         "example": "Car fuel.",
         "exampleCn": "汽车燃料。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -6991,7 +6991,7 @@ const words = [
         "example": "Full moon.",
         "exampleCn": "满月。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -7004,7 +7004,7 @@ const words = [
         "example": "Bright future.",
         "exampleCn": "美好的未来",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -7044,7 +7044,7 @@ const words = [
         "example": "A beautiful garden.",
         "exampleCn": "一个漂亮的花园。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "place"
         ],
@@ -7057,7 +7057,7 @@ const words = [
         "example": "Natural gas.",
         "exampleCn": "天然气。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -7070,7 +7070,7 @@ const words = [
         "example": "First gear.",
         "exampleCn": "一档。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "tool"
         ],
@@ -7083,7 +7083,7 @@ const words = [
         "example": "Sample generation.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7161,7 +7161,7 @@ const words = [
         "example": "Global warming.",
         "exampleCn": "全球变暖。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -7174,7 +7174,7 @@ const words = [
         "example": "Stick with glue.",
         "exampleCn": "用胶水粘。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "school"
         ],
@@ -7187,7 +7187,7 @@ const words = [
         "example": "Score a goal.",
         "exampleCn": "进球。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "abstract"
         ],
@@ -7213,7 +7213,7 @@ const words = [
         "example": "Very good.",
         "exampleCn": "很好。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "opinion"
         ],
@@ -7226,7 +7226,7 @@ const words = [
         "example": "Sample government.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7239,7 +7239,7 @@ const words = [
         "example": "Grandma is kind.",
         "exampleCn": "奶奶很善良。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -7252,7 +7252,7 @@ const words = [
         "example": "I love Grandpa.",
         "exampleCn": "我爱爷爷。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -7304,7 +7304,7 @@ const words = [
         "example": "Grey cloud.",
         "exampleCn": "灰云。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "color"
         ],
@@ -7317,7 +7317,7 @@ const words = [
         "example": "Play guitar.",
         "exampleCn": "弹吉他。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "music"
         ],
@@ -7343,7 +7343,7 @@ const words = [
         "example": "Use a hammer.",
         "exampleCn": "用锤子。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tool"
         ],
@@ -7369,7 +7369,7 @@ const words = [
         "example": "I'm so happy today!",
         "exampleCn": "我今天太开心了！",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "emotion"
         ],
@@ -7382,7 +7382,7 @@ const words = [
         "example": "Hard question.",
         "exampleCn": "难的问题。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -7434,7 +7434,7 @@ const words = [
         "example": "Healthy food.",
         "exampleCn": "健康食品。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "health"
         ],
@@ -7473,7 +7473,7 @@ const words = [
         "example": "Heavy rain.",
         "exampleCn": "大雨。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -7538,7 +7538,7 @@ const words = [
         "example": "Long history.",
         "exampleCn": "悠久的历史",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -7566,7 +7566,7 @@ const words = [
         "example": "An honest man.",
         "exampleCn": "一个诚实的人。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "character"
         ],
@@ -7579,7 +7579,7 @@ const words = [
         "example": "Honesty is best.",
         "exampleCn": "诚实至上",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -7645,7 +7645,7 @@ const words = [
         "example": "Stay in a hotel.",
         "exampleCn": "住在旅馆。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "place"
         ],
@@ -7658,7 +7658,7 @@ const words = [
         "example": "I am hungry.",
         "exampleCn": "我饿了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -7684,7 +7684,7 @@ const words = [
         "example": "My husband.",
         "exampleCn": "我的丈夫。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -7710,7 +7710,7 @@ const words = [
         "example": "A good idea.",
         "exampleCn": "一个好主意。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -7723,7 +7723,7 @@ const words = [
         "example": "Imagine that.",
         "exampleCn": "想象一下",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -7737,7 +7737,7 @@ const words = [
         "example": "Sample importance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7750,7 +7750,7 @@ const words = [
         "example": "Important news.",
         "exampleCn": "重要新闻。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 5,
         "tags": [
             "abstract"
         ],
@@ -7763,7 +7763,7 @@ const words = [
         "example": "Improve skills.",
         "exampleCn": "提高技能",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -7777,7 +7777,7 @@ const words = [
         "example": "Sample individual.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7790,7 +7790,7 @@ const words = [
         "example": "Sample information.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7803,7 +7803,7 @@ const words = [
         "example": "Black ink.",
         "exampleCn": "黑墨水。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "school"
         ],
@@ -7816,7 +7816,7 @@ const words = [
         "example": "Sample international.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7829,7 +7829,7 @@ const words = [
         "example": "Surf the internet.",
         "exampleCn": "上网。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "tech"
         ],
@@ -7842,7 +7842,7 @@ const words = [
         "example": "Sample investment.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -7868,7 +7868,7 @@ const words = [
         "example": "A small island.",
         "exampleCn": "一个小岛。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -7881,7 +7881,7 @@ const words = [
         "example": "Full of joy.",
         "exampleCn": "充满欢乐。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "emotion"
         ],
@@ -7907,7 +7907,7 @@ const words = [
         "example": "In the jungle.",
         "exampleCn": "在丛林里。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -7920,7 +7920,7 @@ const words = [
         "example": "Social justice.",
         "exampleCn": "社会正义",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -7960,7 +7960,7 @@ const words = [
         "example": "New keyboard.",
         "exampleCn": "新键盘。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -7999,7 +7999,7 @@ const words = [
         "example": "Bend your knees.",
         "exampleCn": "弯曲膝盖。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "body"
         ],
@@ -8038,7 +8038,7 @@ const words = [
         "example": "Gain knowledge.",
         "exampleCn": "获取知识。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -8077,7 +8077,7 @@ const words = [
         "example": "Against the law.",
         "exampleCn": "违法。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "abstract"
         ],
@@ -8090,7 +8090,7 @@ const words = [
         "example": "Lazy cat.",
         "exampleCn": "懒猫。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "character"
         ],
@@ -8103,7 +8103,7 @@ const words = [
         "example": "Lead the team.",
         "exampleCn": "领导团队。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "action"
         ],
@@ -8116,7 +8116,7 @@ const words = [
         "example": "Sample leadership.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -8155,7 +8155,7 @@ const words = [
         "example": "Leather belt.",
         "exampleCn": "皮带。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "material"
         ],
@@ -8207,7 +8207,7 @@ const words = [
         "example": "Write a letter.",
         "exampleCn": "写封信。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "social"
         ],
@@ -8233,7 +8233,7 @@ const words = [
         "example": "Quiet in library.",
         "exampleCn": "图书馆里要安静。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "school"
         ],
@@ -8259,7 +8259,7 @@ const words = [
         "example": "Light bag.",
         "exampleCn": "轻便包。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -8272,7 +8272,7 @@ const words = [
         "example": "Bright lightning.",
         "exampleCn": "明亮的闪电。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -8311,7 +8311,7 @@ const words = [
         "example": "Listen to me.",
         "exampleCn": "听我说。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "action"
         ],
@@ -8324,7 +8324,7 @@ const words = [
         "example": "Sample literature.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -8337,7 +8337,7 @@ const words = [
         "example": "Local food.",
         "exampleCn": "当地美食。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -8377,7 +8377,7 @@ const words = [
         "example": "Login now.",
         "exampleCn": "登录。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "tech"
         ],
@@ -8390,7 +8390,7 @@ const words = [
         "example": "Safe logout.",
         "exampleCn": "安全登出。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -8403,7 +8403,7 @@ const words = [
         "example": "Feel lonely.",
         "exampleCn": "感到孤独。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "emotion"
         ],
@@ -8429,7 +8429,7 @@ const words = [
         "example": "Loud voice.",
         "exampleCn": "大声说话。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -8468,7 +8468,7 @@ const words = [
         "example": "Lucky day.",
         "exampleCn": "幸运的一天。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -8481,7 +8481,7 @@ const words = [
         "example": "A big machine.",
         "exampleCn": "一台大机器。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tool"
         ],
@@ -8507,7 +8507,7 @@ const words = [
         "example": "Sample management.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -8520,7 +8520,7 @@ const words = [
         "example": "Store manager.",
         "exampleCn": "店面经理。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -8533,7 +8533,7 @@ const words = [
         "example": "Look at the map.",
         "exampleCn": "看地图。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "school"
         ],
@@ -8546,7 +8546,7 @@ const words = [
         "example": "Food market.",
         "exampleCn": "菜市场。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -8559,7 +8559,7 @@ const words = [
         "example": "Mass production.",
         "exampleCn": "大规模生产。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "abstract"
         ],
@@ -8624,7 +8624,7 @@ const words = [
         "example": "Take medicine.",
         "exampleCn": "吃药。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "health"
         ],
@@ -8637,7 +8637,7 @@ const words = [
         "example": "Morning meeting.",
         "exampleCn": "早会。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "office"
         ],
@@ -8663,7 +8663,7 @@ const words = [
         "example": "Good memory.",
         "exampleCn": "好记性。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -8689,7 +8689,7 @@ const words = [
         "example": "A new method.",
         "exampleCn": "一种新方法",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -8703,7 +8703,7 @@ const words = [
         "example": "In the middle.",
         "exampleCn": "在中间。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "position"
         ],
@@ -8729,7 +8729,7 @@ const words = [
         "example": "Look in mirror.",
         "exampleCn": "照镜子。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "bathroom"
         ],
@@ -8756,7 +8756,7 @@ const words = [
         "example": "Monkey climbs.",
         "exampleCn": "猴子爬树。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "animal"
         ],
@@ -8782,7 +8782,7 @@ const words = [
         "example": "Mother loves me.",
         "exampleCn": "妈妈爱我。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -8795,7 +8795,7 @@ const words = [
         "example": "Electric motor.",
         "exampleCn": "电动机。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 2,
         "tags": [
             "tool"
         ],
@@ -8808,7 +8808,7 @@ const words = [
         "example": "Climb the mountain.",
         "exampleCn": "爬山。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -8847,7 +8847,7 @@ const words = [
         "example": "Dirty mud.",
         "exampleCn": "烂泥。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -8860,7 +8860,7 @@ const words = [
         "example": "Visit the museum.",
         "exampleCn": "参观博物馆。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "place"
         ],
@@ -8873,7 +8873,7 @@ const words = [
         "example": "Nice music.",
         "exampleCn": "好听的音乐。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -8899,7 +8899,7 @@ const words = [
         "example": "Hit the nail.",
         "exampleCn": "钉钉子。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tool"
         ],
@@ -8925,7 +8925,7 @@ const words = [
         "example": "A narrow path.",
         "exampleCn": "一条窄路。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -8952,7 +8952,7 @@ const words = [
         "example": "Social network.",
         "exampleCn": "社交网络。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -8965,7 +8965,7 @@ const words = [
         "example": "Never give up.",
         "exampleCn": "永不放弃。",
         "category": "adverb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "time"
         ],
@@ -8978,7 +8978,7 @@ const words = [
         "example": "Nineteen boys.",
         "exampleCn": "十九个男孩。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 5,
         "tags": [
             "number"
         ],
@@ -8991,7 +8991,7 @@ const words = [
         "example": "Noisy city.",
         "exampleCn": "吵闹的城市。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -9004,7 +9004,7 @@ const words = [
         "example": "Eat noodles.",
         "exampleCn": "吃面条。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -9017,7 +9017,7 @@ const words = [
         "example": "Back to normal.",
         "exampleCn": "恢复正常。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -9056,7 +9056,7 @@ const words = [
         "example": "Write in notebook.",
         "exampleCn": "记在笔记本上。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "school"
         ],
@@ -9082,7 +9082,7 @@ const words = [
         "example": "Sample obligation.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -9108,7 +9108,7 @@ const words = [
         "example": "Go offline.",
         "exampleCn": "离线。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -9173,7 +9173,7 @@ const words = [
         "example": "Work online.",
         "exampleCn": "在线工作。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -9186,7 +9186,7 @@ const words = [
         "example": "Sample opportunity.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -9199,7 +9199,7 @@ const words = [
         "example": "Orange fruit.",
         "exampleCn": "橙子。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "color"
         ],
@@ -9251,7 +9251,7 @@ const words = [
         "example": "A royal palace.",
         "exampleCn": "一座皇家宫殿。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "place"
         ],
@@ -9264,7 +9264,7 @@ const words = [
         "example": "Frying pan.",
         "exampleCn": "平底锅。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "kitchen"
         ],
@@ -9290,7 +9290,7 @@ const words = [
         "example": "A piece of paper.",
         "exampleCn": "一张纸。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "school"
         ],
@@ -9303,7 +9303,7 @@ const words = [
         "example": "Sample particular.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -9316,7 +9316,7 @@ const words = [
         "example": "Enter password.",
         "exampleCn": "输入密码。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -9329,7 +9329,7 @@ const words = [
         "example": "Have patience.",
         "exampleCn": "有耐心",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -9356,7 +9356,7 @@ const words = [
         "example": "World peace.",
         "exampleCn": "世界和平",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "core",
             "noun"
@@ -9370,7 +9370,7 @@ const words = [
         "example": "Juicy peach.",
         "exampleCn": "多汁的桃子。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "food"
         ],
@@ -9383,7 +9383,7 @@ const words = [
         "example": "A sweet pear.",
         "exampleCn": "一个甜梨。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "food"
         ],
@@ -9396,7 +9396,7 @@ const words = [
         "example": "Sharpen the pencil.",
         "exampleCn": "削铅笔。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "school"
         ],
@@ -9409,7 +9409,7 @@ const words = [
         "example": "Perfect match.",
         "exampleCn": "完美匹配。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -9422,7 +9422,7 @@ const words = [
         "example": "Sample performance.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -9435,7 +9435,7 @@ const words = [
         "example": "A long period.",
         "exampleCn": "一段长时期。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "time"
         ],
@@ -9462,7 +9462,7 @@ const words = [
         "example": "Take a photo.",
         "exampleCn": "拍张照。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "tech"
         ],
@@ -9514,7 +9514,7 @@ const words = [
         "example": "Soft pillow.",
         "exampleCn": "柔软的枕头。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "house"
         ],
@@ -9540,7 +9540,7 @@ const words = [
         "example": "Pink flower.",
         "exampleCn": "粉色的花。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "color"
         ],
@@ -9553,7 +9553,7 @@ const words = [
         "example": "Water pipe.",
         "exampleCn": "水管。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tool"
         ],
@@ -9566,7 +9566,7 @@ const words = [
         "example": "Eat pizza.",
         "exampleCn": "吃披萨。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "food"
         ],
@@ -9579,7 +9579,7 @@ const words = [
         "example": "Red planet.",
         "exampleCn": "红色行星。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -9592,7 +9592,7 @@ const words = [
         "example": "Plastic cup.",
         "exampleCn": "塑料杯。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "material"
         ],
@@ -9618,7 +9618,7 @@ const words = [
         "example": "Call the police.",
         "exampleCn": "报警。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -9631,7 +9631,7 @@ const words = [
         "example": "Discuss politics.",
         "exampleCn": "讨论政治",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "core",
             "noun"
@@ -9645,7 +9645,7 @@ const words = [
         "example": "Small pond.",
         "exampleCn": "小池。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -9658,7 +9658,7 @@ const words = [
         "example": "Poor people.",
         "exampleCn": "穷人。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "character"
         ],
@@ -9671,7 +9671,7 @@ const words = [
         "example": "Popular song.",
         "exampleCn": "流行歌曲。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "description"
         ],
@@ -9684,7 +9684,7 @@ const words = [
         "example": "Sample population.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -9723,7 +9723,7 @@ const words = [
         "example": "Baked potato.",
         "exampleCn": "烤土豆。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -9750,7 +9750,7 @@ const words = [
         "example": "At present.",
         "exampleCn": "目前",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -9764,7 +9764,7 @@ const words = [
         "example": "Take pride in.",
         "exampleCn": "引以为豪。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "emotion"
         ],
@@ -9790,7 +9790,7 @@ const words = [
         "example": "Private car.",
         "exampleCn": "私家车。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -9803,7 +9803,7 @@ const words = [
         "example": "First prize.",
         "exampleCn": "一等奖。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "fun"
         ],
@@ -9816,7 +9816,7 @@ const words = [
         "example": "Sample production.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -9842,7 +9842,7 @@ const words = [
         "example": "Public park.",
         "exampleCn": "公园。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -9855,7 +9855,7 @@ const words = [
         "example": "The Queen lives here.",
         "exampleCn": "女王住在这里。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "job"
         ],
@@ -9868,7 +9868,7 @@ const words = [
         "example": "Quick response.",
         "exampleCn": "快速反应。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -9881,7 +9881,7 @@ const words = [
         "example": "Run quickly.",
         "exampleCn": "跑快点。",
         "category": "adverb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "speed"
         ],
@@ -9894,7 +9894,7 @@ const words = [
         "example": "Quiet room.",
         "exampleCn": "安静的房间。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -9907,7 +9907,7 @@ const words = [
         "example": "Cute rabbit.",
         "exampleCn": "可爱的兔子。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "animal"
         ],
@@ -9947,7 +9947,7 @@ const words = [
         "example": "See a rainbow.",
         "exampleCn": "看见彩虹。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -9960,7 +9960,7 @@ const words = [
         "example": "Rainy season.",
         "exampleCn": "雨季。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "weather"
         ],
@@ -9973,7 +9973,7 @@ const words = [
         "example": "Dinner is ready.",
         "exampleCn": "晚餐准备好了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -9986,7 +9986,7 @@ const words = [
         "example": "Real life.",
         "exampleCn": "现实生活。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -9999,7 +9999,7 @@ const words = [
         "example": "Realize a dream.",
         "exampleCn": "实现梦想",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -10013,7 +10013,7 @@ const words = [
         "example": "Give a reason.",
         "exampleCn": "给个理由",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -10027,7 +10027,7 @@ const words = [
         "example": "Sample reflection.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -10040,7 +10040,7 @@ const words = [
         "example": "Sample relationship.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -10053,7 +10053,7 @@ const words = [
         "example": "Daily report.",
         "exampleCn": "日报。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "office"
         ],
@@ -10066,7 +10066,7 @@ const words = [
         "example": "Sample reputation.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -10079,7 +10079,7 @@ const words = [
         "example": "Sample resolution.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -10092,7 +10092,7 @@ const words = [
         "example": "Test result.",
         "exampleCn": "考试结果",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -10119,7 +10119,7 @@ const words = [
         "example": "Rich culture.",
         "exampleCn": "丰富的文化。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "character"
         ],
@@ -10132,7 +10132,7 @@ const words = [
         "example": "Across the river.",
         "exampleCn": "过河。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "nature"
         ],
@@ -10158,7 +10158,7 @@ const words = [
         "example": "On the roof.",
         "exampleCn": "在屋顶上。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "house"
         ],
@@ -10184,7 +10184,7 @@ const words = [
         "example": "Deep roots.",
         "exampleCn": "深根。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -10197,7 +10197,7 @@ const words = [
         "example": "Rubber ball.",
         "exampleCn": "橡胶球。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "material"
         ],
@@ -10210,7 +10210,7 @@ const words = [
         "example": "A warm rug.",
         "exampleCn": "一条暖和的地毯。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "house"
         ],
@@ -10223,7 +10223,7 @@ const words = [
         "example": "Follow the rule.",
         "exampleCn": "遵守规则。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -10236,7 +10236,7 @@ const words = [
         "example": "Use a ruler.",
         "exampleCn": "用尺子。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "school"
         ],
@@ -10262,7 +10262,7 @@ const words = [
         "example": "Safe trip.",
         "exampleCn": "旅途平安。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -10275,7 +10275,7 @@ const words = [
         "example": "Safety first.",
         "exampleCn": "安全第一。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -10288,7 +10288,7 @@ const words = [
         "example": "Fresh salad.",
         "exampleCn": "新鲜沙拉。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "food"
         ],
@@ -10301,7 +10301,7 @@ const words = [
         "example": "Annual salary.",
         "exampleCn": "年薪。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "finance"
         ],
@@ -10327,7 +10327,7 @@ const words = [
         "example": "Salty soup.",
         "exampleCn": "咸汤。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -10353,7 +10353,7 @@ const words = [
         "example": "Large scale.",
         "exampleCn": "大规模。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -10380,7 +10380,7 @@ const words = [
         "example": "High score.",
         "exampleCn": "高分。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "fun"
         ],
@@ -10393,7 +10393,7 @@ const words = [
         "example": "Touch screen.",
         "exampleCn": "触摸屏。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "tech"
         ],
@@ -10406,7 +10406,7 @@ const words = [
         "example": "A tiny screw.",
         "exampleCn": "一个微型螺丝。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tool"
         ],
@@ -10432,7 +10432,7 @@ const words = [
         "example": "School secretary.",
         "exampleCn": "学校秘书。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "job"
         ],
@@ -10497,7 +10497,7 @@ const words = [
         "example": "Seventeen coins.",
         "exampleCn": "十七个硬币。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 5,
         "tags": [
             "number"
         ],
@@ -10510,7 +10510,7 @@ const words = [
         "example": "My shadow.",
         "exampleCn": "我的影子。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -10523,7 +10523,7 @@ const words = [
         "example": "Shallow lake.",
         "exampleCn": "浅湖。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -10536,7 +10536,7 @@ const words = [
         "example": "What a shame.",
         "exampleCn": "真丢脸。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "emotion"
         ],
@@ -10562,7 +10562,7 @@ const words = [
         "example": "Pencil sharpener.",
         "exampleCn": "铅笔刀。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "school"
         ],
@@ -10588,7 +10588,7 @@ const words = [
         "example": "On the shelf.",
         "exampleCn": "在架子上。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "house"
         ],
@@ -10627,7 +10627,7 @@ const words = [
         "example": "Should go.",
         "exampleCn": "应该去。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "abstract"
         ],
@@ -10640,7 +10640,7 @@ const words = [
         "example": "On my shoulder.",
         "exampleCn": "在我的肩膀上。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "body"
         ],
@@ -10666,7 +10666,7 @@ const words = [
         "example": "Take a shower.",
         "exampleCn": "洗个淋浴。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "bathroom"
         ],
@@ -10679,7 +10679,7 @@ const words = [
         "example": "He is sick.",
         "exampleCn": "他病了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -10692,7 +10692,7 @@ const words = [
         "example": "Phone signal.",
         "exampleCn": "手机信号。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "tech"
         ],
@@ -10705,7 +10705,7 @@ const words = [
         "example": "In silence.",
         "exampleCn": "在沉默中",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -10719,7 +10719,7 @@ const words = [
         "example": "Chinese silk.",
         "exampleCn": "中国丝绸。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "material"
         ],
@@ -10732,7 +10732,7 @@ const words = [
         "example": "Silly mistake.",
         "exampleCn": "愚蠢的错误。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "character"
         ],
@@ -10745,7 +10745,7 @@ const words = [
         "example": "Silver spoon.",
         "exampleCn": "银勺。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "material"
         ],
@@ -10758,7 +10758,7 @@ const words = [
         "example": "Simple life.",
         "exampleCn": "简单的生活。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -10771,7 +10771,7 @@ const words = [
         "example": "Famous singer.",
         "exampleCn": "著名歌手。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -10784,7 +10784,7 @@ const words = [
         "example": "My sister is kind.",
         "exampleCn": "我的姐妹很善良。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "family"
         ],
@@ -10797,7 +10797,7 @@ const words = [
         "example": "Sixteen years.",
         "exampleCn": "十六岁。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "number"
         ],
@@ -10836,7 +10836,7 @@ const words = [
         "example": "I feel sleepy.",
         "exampleCn": "我困了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -10849,7 +10849,7 @@ const words = [
         "example": "Slow walker.",
         "exampleCn": "慢行人。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -10862,7 +10862,7 @@ const words = [
         "example": "Walk slowly.",
         "exampleCn": "慢慢走。",
         "category": "adverb",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "speed"
         ],
@@ -10875,7 +10875,7 @@ const words = [
         "example": "Smart phone.",
         "exampleCn": "智能手机。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "character"
         ],
@@ -10888,7 +10888,7 @@ const words = [
         "example": "Smell the flower.",
         "exampleCn": "闻闻这朵花。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "sense"
         ],
@@ -10901,7 +10901,7 @@ const words = [
         "example": "Grey smoke.",
         "exampleCn": "灰烟。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -10941,7 +10941,7 @@ const words = [
         "example": "Snowy mountain.",
         "exampleCn": "雪山。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "weather"
         ],
@@ -10967,7 +10967,7 @@ const words = [
         "example": "Modern society.",
         "exampleCn": "现代社会",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -10994,7 +10994,7 @@ const words = [
         "example": "Sit on the sofa.",
         "exampleCn": "坐在沙发上。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "house"
         ],
@@ -11007,7 +11007,7 @@ const words = [
         "example": "Soft bed.",
         "exampleCn": "软床。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -11020,7 +11020,7 @@ const words = [
         "example": "Black soil.",
         "exampleCn": "黑土。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -11033,7 +11033,7 @@ const words = [
         "example": "Solve problem.",
         "exampleCn": "解决问题。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "action"
         ],
@@ -11059,7 +11059,7 @@ const words = [
         "example": "I am sorry.",
         "exampleCn": "对不起。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -11124,7 +11124,7 @@ const words = [
         "example": "In outer space.",
         "exampleCn": "在外部空间。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -11137,7 +11137,7 @@ const words = [
         "example": "Special gift.",
         "exampleCn": "特别的礼物。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -11163,7 +11163,7 @@ const words = [
         "example": "Team spirit.",
         "exampleCn": "团队精神",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -11203,7 +11203,7 @@ const words = [
         "example": "Spring is here.",
         "exampleCn": "春天来了。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "time"
         ],
@@ -11216,7 +11216,7 @@ const words = [
         "example": "Postage stamp.",
         "exampleCn": "邮票。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "social"
         ],
@@ -11255,7 +11255,7 @@ const words = [
         "example": "At the station.",
         "exampleCn": "在车站。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -11281,7 +11281,7 @@ const words = [
         "example": "Cook a steak.",
         "exampleCn": "做牛排。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "food"
         ],
@@ -11294,7 +11294,7 @@ const words = [
         "example": "Hot steam.",
         "exampleCn": "热蒸汽。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -11307,7 +11307,7 @@ const words = [
         "example": "Strong steel.",
         "exampleCn": "坚硬的钢铁。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "material"
         ],
@@ -11346,7 +11346,7 @@ const words = [
         "example": "A big storm.",
         "exampleCn": "一场大风暴。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -11359,7 +11359,7 @@ const words = [
         "example": "Strange noise.",
         "exampleCn": "奇怪的噪音。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -11385,7 +11385,7 @@ const words = [
         "example": "Cross the street.",
         "exampleCn": "穿过街道。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "city"
         ],
@@ -11398,7 +11398,7 @@ const words = [
         "example": "Strong wind.",
         "exampleCn": "强风。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -11411,7 +11411,7 @@ const words = [
         "example": "I am a student.",
         "exampleCn": "我是一名学生。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "school"
         ],
@@ -11424,7 +11424,7 @@ const words = [
         "example": "Study English.",
         "exampleCn": "学英语。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "school"
         ],
@@ -11437,7 +11437,7 @@ const words = [
         "example": "Not stupid.",
         "exampleCn": "不傻。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -11450,7 +11450,7 @@ const words = [
         "example": "Wish you success.",
         "exampleCn": "祝你成功。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -11463,7 +11463,7 @@ const words = [
         "example": "Sample successful.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -11476,7 +11476,7 @@ const words = [
         "example": "Sweet sugar.",
         "exampleCn": "甜糖。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "food"
         ],
@@ -11489,7 +11489,7 @@ const words = [
         "example": "Sample suggestion.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -11502,7 +11502,7 @@ const words = [
         "example": "Hot summer.",
         "exampleCn": "炎热的夏天。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "time"
         ],
@@ -11528,7 +11528,7 @@ const words = [
         "example": "A sunny day.",
         "exampleCn": "一个晴天。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "weather"
         ],
@@ -11541,7 +11541,7 @@ const words = [
         "example": "I support you.",
         "exampleCn": "我支持你",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "verb"
@@ -11555,7 +11555,7 @@ const words = [
         "example": "Are you sure?",
         "exampleCn": "你确定吗？",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -11568,7 +11568,7 @@ const words = [
         "example": "What a surprise!",
         "exampleCn": "太惊喜了！",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "emotion"
         ],
@@ -11581,7 +11581,7 @@ const words = [
         "example": "Big swamp.",
         "exampleCn": "大沼泽。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -11594,7 +11594,7 @@ const words = [
         "example": "Sweet candy.",
         "exampleCn": "甜糖果。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -11607,7 +11607,7 @@ const words = [
         "example": "Solar system.",
         "exampleCn": "太阳系",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -11635,7 +11635,7 @@ const words = [
         "example": "Hit the target.",
         "exampleCn": "击中目标。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -11648,7 +11648,7 @@ const words = [
         "example": "Good taste.",
         "exampleCn": "味道不错。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "sense"
         ],
@@ -11674,7 +11674,7 @@ const words = [
         "example": "Our teacher is kind.",
         "exampleCn": "我们的老师很和蔼。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "school"
         ],
@@ -11687,7 +11687,7 @@ const words = [
         "example": "Sample technology.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -11700,7 +11700,7 @@ const words = [
         "example": "Old temple.",
         "exampleCn": "古寺。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "city"
         ],
@@ -11713,7 +11713,7 @@ const words = [
         "example": "Tennis ball.",
         "exampleCn": "网球。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "sport"
         ],
@@ -11739,7 +11739,7 @@ const words = [
         "example": "At theatre.",
         "exampleCn": "在剧院。",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 2,
         "tags": [
             "city"
         ],
@@ -11752,7 +11752,7 @@ const words = [
         "example": "Scientific theory.",
         "exampleCn": "科学理论",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "core",
             "noun"
@@ -11792,7 +11792,7 @@ const words = [
         "example": "Feel thirsty.",
         "exampleCn": "感到口渴。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "feeling"
         ],
@@ -11805,7 +11805,7 @@ const words = [
         "example": "Thirteen stars.",
         "exampleCn": "十三颗星。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 4,
         "tags": [
             "number"
         ],
@@ -11818,7 +11818,7 @@ const words = [
         "example": "Hear thunder.",
         "exampleCn": "听到雷声。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -11831,7 +11831,7 @@ const words = [
         "example": "The high tide.",
         "exampleCn": "高潮。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "nature"
         ],
@@ -11844,7 +11844,7 @@ const words = [
         "example": "He wears a tie.",
         "exampleCn": "他系着领带。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "clothing"
         ],
@@ -11857,7 +11857,7 @@ const words = [
         "example": "Fierce tiger.",
         "exampleCn": "凶猛的老虎。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "animal"
         ],
@@ -11897,7 +11897,7 @@ const words = [
         "example": "So tired.",
         "exampleCn": "好累。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -11910,7 +11910,7 @@ const words = [
         "example": "Red tomato.",
         "exampleCn": "红番茄。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "food"
         ],
@@ -11923,7 +11923,7 @@ const words = [
         "example": "Show your tongue.",
         "exampleCn": "伸出舌头。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "body"
         ],
@@ -11962,7 +11962,7 @@ const words = [
         "example": "My toothbrush.",
         "exampleCn": "我的牙刷。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "bathroom"
         ],
@@ -11975,7 +11975,7 @@ const words = [
         "example": "Mint toothpaste.",
         "exampleCn": "薄荷牙膏。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "bathroom"
         ],
@@ -12027,7 +12027,7 @@ const words = [
         "example": "Sample tradition.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 4,
         "tags": [
             "advanced"
         ],
@@ -12053,7 +12053,7 @@ const words = [
         "example": "Red triangle.",
         "exampleCn": "红色的三角形。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "shape"
         ],
@@ -12066,7 +12066,7 @@ const words = [
         "example": "Tell the truth.",
         "exampleCn": "说出真相",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "core",
             "noun"
@@ -12093,7 +12093,7 @@ const words = [
         "example": "Slow turtle.",
         "exampleCn": "慢龟。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "animal"
         ],
@@ -12119,7 +12119,7 @@ const words = [
         "example": "Twelve months.",
         "exampleCn": "十二个月。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "number"
         ],
@@ -12132,7 +12132,7 @@ const words = [
         "example": "Twenty dollars.",
         "exampleCn": "二十美元。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "number"
         ],
@@ -12145,7 +12145,7 @@ const words = [
         "example": "Ugly bug.",
         "exampleCn": "丑陋的小虫。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "description"
         ],
@@ -12158,7 +12158,7 @@ const words = [
         "example": "Uncle Tom.",
         "exampleCn": "汤姆叔叔。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "family"
         ],
@@ -12171,7 +12171,7 @@ const words = [
         "example": "Unique style.",
         "exampleCn": "独特风格。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "abstract"
         ],
@@ -12184,7 +12184,7 @@ const words = [
         "example": "Sample university.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -12197,7 +12197,7 @@ const words = [
         "example": "Unlock it.",
         "exampleCn": "开锁。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "action"
         ],
@@ -12210,7 +12210,7 @@ const words = [
         "example": "Useful book.",
         "exampleCn": "有用的书。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "description"
         ],
@@ -12223,7 +12223,7 @@ const words = [
         "example": "Useless thing.",
         "exampleCn": "没用的东西。",
         "category": "adjective",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "description"
         ],
@@ -12236,7 +12236,7 @@ const words = [
         "example": "Active user.",
         "exampleCn": "活跃用户。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "tech"
         ],
@@ -12249,7 +12249,7 @@ const words = [
         "example": "Green valley.",
         "exampleCn": "绿色的山谷。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "nature"
         ],
@@ -12262,7 +12262,7 @@ const words = [
         "example": "Sample vegetable.",
         "exampleCn": "示例句子",
         "category": "noun",
-        "difficulty": 3,
+        "difficulty": 5,
         "tags": [
             "advanced"
         ],
@@ -12275,7 +12275,7 @@ const words = [
         "example": "A small village.",
         "exampleCn": "一个小村庄。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "place"
         ],
@@ -12341,7 +12341,7 @@ const words = [
         "example": "High volume.",
         "exampleCn": "高音量。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 3,
         "tags": [
             "abstract"
         ],
@@ -12406,7 +12406,7 @@ const words = [
         "example": "Stop the war.",
         "exampleCn": "停止战争。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "abstract"
         ],
@@ -12419,7 +12419,7 @@ const words = [
         "example": "Warm water.",
         "exampleCn": "温水。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "feeling"
         ],
@@ -12458,7 +12458,7 @@ const words = [
         "example": "Drink some water.",
         "exampleCn": "喝点水。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "nature",
             "life"
@@ -12472,7 +12472,7 @@ const words = [
         "example": "High waterfall.",
         "exampleCn": "高瀑布。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 4,
         "tags": [
             "nature"
         ],
@@ -12576,7 +12576,7 @@ const words = [
         "example": "A wide river.",
         "exampleCn": "一条宽阔的河。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "description"
         ],
@@ -12589,7 +12589,7 @@ const words = [
         "example": "My wife.",
         "exampleCn": "我的妻子。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "family"
         ],
@@ -12629,7 +12629,7 @@ const words = [
         "example": "It is windy.",
         "exampleCn": "起风了。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "weather"
         ],
@@ -12642,7 +12642,7 @@ const words = [
         "example": "Electric wire.",
         "exampleCn": "电线。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "tool"
         ],
@@ -12655,7 +12655,7 @@ const words = [
         "example": "Best wishes.",
         "exampleCn": "最好的祝愿。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "mental"
         ],
@@ -12668,7 +12668,7 @@ const words = [
         "example": "A kind woman.",
         "exampleCn": "一位善良的女士。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "people"
         ],
@@ -12694,7 +12694,7 @@ const words = [
         "example": "Soft wool.",
         "exampleCn": "软羊毛。",
         "category": "noun",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "material"
         ],
@@ -12707,7 +12707,7 @@ const words = [
         "example": "He works in a bank.",
         "exampleCn": "他在银行工作。",
         "category": "verb",
-        "difficulty": 2,
+        "difficulty": 1,
         "tags": [
             "office",
             "action"
@@ -12721,7 +12721,7 @@ const words = [
         "example": "A hard worker.",
         "exampleCn": "一个勤奋的工人。",
         "category": "noun",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "job"
         ],
@@ -12747,7 +12747,7 @@ const words = [
         "example": "Don t worry.",
         "exampleCn": "别担心。",
         "category": "verb",
-        "difficulty": 1,
+        "difficulty": 2,
         "tags": [
             "emotion"
         ],
@@ -12773,22 +12773,10 @@ const words = [
         "example": "Yellow banana.",
         "exampleCn": "黄色的香蕉。",
         "category": "adjective",
-        "difficulty": 1,
+        "difficulty": 3,
         "tags": [
             "color"
         ],
         "svg": "<svg viewBox=\"0 0 120 60\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"60\" cy=\"15\" r=\"8\" fill=\"currentColor\" opacity=\"0.3\"/><text x=\"60\" y=\"50\" font-family=\"Arial\" font-weight=\"bold\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\" >YELLOW</text></svg>"
     }
 ];
-
-// 导出供其他模块使用
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = words;
-}
-
-// 浏览器环境：确保 words 在全局可用
-if (typeof window !== 'undefined') {
-    window.words = words;
-}
-
-console.log(`✅ 单词数据已加载: ${words.length} 个单词`);

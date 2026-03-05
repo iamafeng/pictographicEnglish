@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="src/styles/enhancements.css">
     <link rel="stylesheet" href="src/styles/ui-polish.css">
+    <link rel="stylesheet" href="src/styles/difficulty-filter.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -60,6 +61,25 @@
         </header>
 
         <main>
+            <!-- Difficulty Filter -->
+            <div class="filter-container" role="region" aria-label="难度筛选">
+                <div class="filter-wrapper">
+                    <label for="difficulty-filter" class="filter-label">
+                        <span class="filter-icon" aria-hidden="true">⭐</span>
+                        难度筛选：
+                    </label>
+                    <select id="difficulty-filter" class="difficulty-select" aria-label="选择难度级别">
+                        <option value="all">全部难度</option>
+                        <option value="1" data-count-id="count-1">⭐ Level 1</option>
+                        <option value="2" data-count-id="count-2">⭐⭐ Level 2</option>
+                        <option value="3" data-count-id="count-3">⭐⭐⭐ Level 3</option>
+                        <option value="4" data-count-id="count-4">⭐⭐⭐⭐ Level 4</option>
+                        <option value="5" data-count-id="count-5">⭐⭐⭐⭐⭐ Level 5</option>
+                    </select>
+                    <span class="filter-result-count" id="filter-result-count" aria-live="polite"></span>
+                </div>
+            </div>
+
             <div class="grid" id="word-grid" role="region" aria-label="单词卡片列表">
                 <!-- Cards will be injected here -->
             </div>
@@ -95,7 +115,7 @@
                     <span>将单词与正确的象形图连线 (互动游戏)</span>
                 </button>
             </div>
-            <button id="close-challenge" class="secondary-btn w-full mt-4">取消</button>
+            <button id="close-challenge" class="secondary-btn" style="width: 100%; margin-top: 1rem;">取消</button>
         </div>
     </div>
 
