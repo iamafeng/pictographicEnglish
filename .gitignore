@@ -1,8 +1,7 @@
 # Documentation files (old/deprecated)
-/ARCHITECTURE.md
+# Note: ARCHITECTURE.md has been recreated and should be tracked
 /HOW_TO_RUN.md
 /QUICK_START.md
-/如何运行.md
 
 # Test files
 /test-architecture.html
