@@ -1,0 +1,38 @@
+/* ========================================
+   横屏模式响应式样式 (Landscape Responsive Styles)
+   适用于移动设备横屏模式
+   ======================================== */
+
+/* 移动端横屏模式 (max-width: 768px and orientation: landscape) */
+@media (max-width: 768px) and (orientation: landscape) {
+    /* ========================================
+       横屏模式布局优化 (Landscape Layout)
+       ======================================== */
+    
+    /* 卡片网格调整为双列 */
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    /* 影院模式横屏布局 */
+    .cinema-card-stage {
+        flex-direction: row;
+        height: 80vh;
+    }
+    
+    .cinema-card-stage .card-container {
+        width: 60%;
+        height: 100%;
+    }
+    
+    .cinema-info-overlay {
+        display: flex;
+        width: 40%;
+    }
+    
+    /* 挑战模式横屏布局 */
+    .game-view .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

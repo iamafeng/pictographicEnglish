@@ -293,6 +293,8 @@ See [VOCABULARY_EXPANSION.md](VOCABULARY_EXPANSION.md) for detailed instructions
 - Testing new words
 - Using AI for word generation
 
+[中文版词汇扩展指南](VOCABULARY_EXPANSION_CN.md)
+
 **Quick Example**:
 
 ```javascript

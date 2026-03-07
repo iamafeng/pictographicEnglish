@@ -5,6 +5,56 @@
 
 // Note: TTS service, toast, and other utilities are loaded from separate files
 
+// --- 微信浏览器兼容性处理 (WeChat Browser Compatibility) ---
+const isWeChatBrowser = /MicroMessenger/i.test(navigator.userAgent);
+
+if (isWeChatBrowser) {
+    console.log('检测到微信浏览器环境');
+    
+    // 处理微信浏览器的自动播放限制
+    // WeChat blocks autoplay, so we need user interaction first
+    let audioUnlocked = false;
+    
+    function unlockAudio() {
+        if (audioUnlocked) return;
+        
+        // Try to play a silent audio to unlock audio context
+        const silentAudio = new Audio();
+        silentAudio.src = 'data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWGluZwAAAA8AAAACAAADhAC7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7//////////////////////////////////////////////////////////////////8AAAAATGF2YzU4LjEzAAAAAAAAAAAAAAAAJAAAAAAAAAAAA4T/////////////////////////////////////////////////';
+        silentAudio.play().then(() => {
+            audioUnlocked = true;
+            console.log('音频已解锁');
+        }).catch(() => {
+            console.log('音频解锁失败,需要用户交互');
+        });
+    }
+    
+    // Unlock audio on first user interaction
+    document.addEventListener('touchstart', unlockAudio, { once: true });
+    document.addEventListener('click', unlockAudio, { once: true });
+    
+    // 处理微信浏览器的返回按钮
+    // Handle WeChat back button behavior
+    window.addEventListener('popstate', function(event) {
+        // Close any open modals when back button is pressed
+        const modals = document.querySelectorAll('.modal.active');
+        if (modals.length > 0) {
+            modals.forEach(modal => {
+                modal.classList.remove('active');
+            });
+            event.preventDefault();
+        }
+    });
+    
+    // 禁用微信浏览器的下拉刷新
+    // Disable pull-to-refresh in WeChat
+    document.body.addEventListener('touchmove', function(e) {
+        if (e.touches.length > 1) {
+            e.preventDefault();
+        }
+    }, { passive: false });
+}
+
 // --- State & Storage ---
 // Support both old array format and new object format (SRS)
 let learnedWordsData = localStorage.getItem('learned_words');

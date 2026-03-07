@@ -77,8 +77,34 @@ class CinemaController {
                     <div class="meaning">${wordData.meaning}</div>
                     <div class="example">${wordData.example}</div>
                     <div class="example-cn">${wordData.exampleCn}</div>
+                    <div class="audio-controls">
+                        <button class="play-btn" data-text="${wordData.word}">🔊 单词</button>
+                        <button class="play-btn" data-text="${wordData.example}">🔊 句子</button>
+                    </div>
                 </div>
             `;
+            
+            // Bind audio button events
+            this.stage.querySelectorAll('.play-btn').forEach(btn => {
+                btn.onclick = (e) => {
+                    e.stopPropagation();
+                    const text = btn.dataset.text;
+                    if (window.tts && window.tts.speak) {
+                        window.tts.speak(text);
+                    } else if (typeof tts !== 'undefined' && tts.speak) {
+                        tts.speak(text);
+                    } else {
+                        // Fallback to browser TTS
+                        try {
+                            const utterance = new SpeechSynthesisUtterance(text);
+                            utterance.lang = 'en-US';
+                            window.speechSynthesis.speak(utterance);
+                        } catch (err) {
+                            console.error('TTS failed:', err);
+                        }
+                    }
+                };
+            });
         }
 
         // Speak sequence

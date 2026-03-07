@@ -286,12 +286,14 @@ pictographicEnglish/
 
 ## 🔧 添加新单词
 
-查看 [VOCABULARY_EXPANSION.md](VOCABULARY_EXPANSION.md) 了解详细说明：
+查看 [词汇扩展指南（中文）](VOCABULARY_EXPANSION_CN.md) 了解详细说明：
 - 单词对象结构和验证
 - 难度分配标准
 - SVG 象形图要求
 - 测试新单词
 - 使用 AI 生成单词
+
+[English Vocabulary Expansion Guide](VOCABULARY_EXPANSION.md)
 
 **快速示例**:
 
